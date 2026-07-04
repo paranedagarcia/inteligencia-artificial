@@ -1,0 +1,12 @@
+
+:::info[Codigo:]
+- https://colab.research.google.com/drive/1S3lUwphZRBF6mobRPb_fym7AZ2AbNjcB
+:::
+
+
+¿Cuáles son los principales riesgos de sesgos en la IA para el Estado?
+¿Qué es la IA Agéntica y cómo se diferencia de la IA Generativa?
+¿Cuáles son los principales riesgos de sesgos en la IA para el Estado?
+
+Dame ejemplos de IA agéntica aplicada a trámites públicos.
+¿Cuáles son los riesgos de implementar agentes autónomos en el Estado?
