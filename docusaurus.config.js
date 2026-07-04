@@ -67,7 +67,7 @@ const config = {
         {name: 'author', content: 'Patricio Araneda'},
       ],
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/ODC-isotipo.svg',
       colorMode: {
         respectPrefersColorScheme: true,
       },
@@ -75,7 +75,7 @@ const config = {
         title: 'Inteligencia Artificial',
         logo: {
           alt: 'Inteligencia Artificial para la Gestión Pública Logo',
-          src: 'img/logo.svg',
+          src: 'img/ODC-isotipo.svg',
         },
         items: [
           {
@@ -86,7 +86,7 @@ const config = {
           },
           //{to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/patricioaraneda/ia-gestionpublica',
+            href: 'https://github.com/paranedagarcia/ia-gestionpublica',
             label: 'GitHub',
             position: 'right',
           },
@@ -102,37 +102,45 @@ const config = {
                 label: 'Manual',
                 to: '/docs/intro',
               },
+              {
+                label: 'DOI',
+                href: 'https://orcid.org/0000-0001-9677-5959',
+              }
             ],
           },
           {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Website',
+                href: 'https://patricioaraneda.cl',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Linkedin',
+                href: 'https://www.linkedin.com/in/patricioaraneda',
               },
               {
                 label: 'X',
-                href: 'https://x.com/docusaurus',
+                href: 'https://twitter.com/paranedagarcia',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'Más',
             items: [
              
               {
                 label: 'GitHub',
-                href: 'https://github.com/patricioaraneda/ia-gestionpublica',
+                href: 'https://github.com/paranedagarcia/ia-gestionpublica',
               },
+              {
+                label: 'Whatsapp',
+                href: 'https://wa.me/56978872845',
+              }
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Inteligencia Artificial para la Gestión Pública, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Patricio Araneda G. | Inteligencia Artificial para la Gestión Pública, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,

@@ -25,8 +25,9 @@ Mejores APIs de IA 2026: Precios y Comparativa para Desarrolladores - Javadex, f
 - Política Nacional de Inteligencia Artificial | CENS, fecha de acceso: julio 3, 2026, https://cens.cl/wp-content/uploads/2025/10/Politica-Nacional-de-Inteligencia-Artificial.pdf
 - MICITT presentó Estrategia Nacional de Inteligencia Artificial (ENIA) | Ministerio de Ciencia, Innovación, Tecnología y Telecomunicaciones, fecha de acceso: julio 3, 2026, https://micitt.go.cr/el-sector-informa/micitt-presento-estrategia-nacional-de-inteligencia-artificial-enia
 - Gobierno Publica Circular Para Un Uso Responsable De La Ia En Los Servicios Públicos - Ministerio de Ciencia, fecha de acceso: julio 3, 2026, https://www.minciencia.gob.cl/noticias/gobierno-publica-circular-para-un-uso-responsable-de-la-ia-en-los-servicios-publicos/
-- Chile: 10 acciones para el uso responsable de IA en servicios públicos - DPL News, fecha de acceso: julio 3, 2026, https://dplnews.com/chile-10-acciones-para-el-uso-responsable-de-ia-en-servicios-publicos/
-Orientaciones básicas para la gestión de las TIC - Wiki Guías - Gobierno Digital, fecha de acceso: julio 3, 2026, https://wikiguias.digital.gob.cl/guias/orientaciones-TIC
+- Uso responsable de la IA para las políticas públicas, BID, 2020 https://publications.iadb.org/publications/spanish/document/IA-Responsable-Manual-tecnico-Ciclo-de-vida-de-la-inteligencia-artificial.pdf
+
+- Orientaciones básicas para la gestión de las TIC - Wiki Guías - Gobierno Digital, fecha de acceso: julio 3, 2026, https://wikiguias.digital.gob.cl/guias/orientaciones-TIC
 - ChileCompra actualiza directiva para la contratación de proyectos de ciencia de datos e inteligencia artificial, fecha de acceso: julio 3, 2026, https://www.chilecompra.cl/2026/03/chilecompra-actualiza-directiva-para-la-contratacion-de-proyectos-de-ciencia-de-datos-e-inteligencia-artificial/
 - EL GOBIERNO SE OBSTACULIZA EN LA ESTRATEGIA NACIONAL DE INTELIGENCIA ARTIFICIAL, fecha de acceso: julio 3, 2026, https://gobiernodigital.pe/noticias/el-gobierno-se-obstaculiza-en-la-estrategia-nacional-de-inteligencia-artificial
 - U. de Chile y UC Berkeley lideran alianza con ChileCompra para aplicar IA en las compras públicas, fecha de acceso: julio 3, 2026, https://uchile.cl/noticias/235662/u-de-chile-y-uc-berkeley-expanden-uso-de-ia-en-compras-publicas

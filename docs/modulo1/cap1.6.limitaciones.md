@@ -55,3 +55,4 @@ Para mitigar estos peligros, las instituciones deben adoptar sistemas de gestió
 ¿Qué controles recomienda la norma ISO 42001 para mitigar riesgos?
 ¿Cómo se integra la supervisión humana en los agentes autónomos?
 ¿Cuál es la diferencia entre el riesgo y el impacto en IA?
+¿Cuáles son los principales riesgos de sesgos en la IA para el Estado?

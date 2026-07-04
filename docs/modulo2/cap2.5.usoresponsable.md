@@ -1,0 +1,24 @@
+---
+id: usoresponsable
+title: "Uso responsable de la IA"
+sidebar_label: "💻 Uso responsable"
+sidebar_position: 4
+description: "10 Acciones para el Uso Responsable de la IA"
+---
+
+
+
+1. **Evaluar la necesidad real**: Determinar si la IA es la herramienta más adecuada y eficiente para solucionar un problema público, en lugar de implementarla solo por innovación.
+2. **Evitar la discriminación arbitraria**: Asegurar que los algoritmos no reproduzcan ni generen sesgos basados en género, raza, origen o condición socioeconómica.
+3. **Participación ciudadana**: Involucrar a la sociedad civil y a la comunidad local en el diseño e implementación de sistemas de IA que afecten sus derechos.
+4. **Transparencia y explicabilidad**: Informar de manera accesible cuándo se utiliza IA (ej. chatbots) y cómo los sistemas toman decisiones que afectan a los ciudadanos.
+5. **Privacidad y protección de datos**: Resguardar la confidencialidad de los datos personales bajo estándares normativos, evitando compartir información sensible con terceros.
+6. **Autonomía humana supervisada**: Ninguna decisión automatizada debe sustituir el juicio humano. El rol del servidor público es central en la validación final.
+7. **Diseño ético (Formulación de Proyectos)**: Integrar metodologías de evaluación ética de datos desde la fase inicial de conceptualización de cualquier software.
+8. **Seguridad y trazabilidad**: Mantener registros claros del funcionamiento, actualizaciones y origen de los datos de entrenamiento de los sistemas de IA.
+9. **Capacitación continua**: Fomentar la alfabetización digital y la formación ética de los funcionarios públicos en el manejo de estas herramientas.
+10. **Rendición de cuentas (Accountability)**: Establecer responsabilidades claras sobre quién responde ante fallas, errores o impactos negativos derivados de un sistema de IA.
+
+:::info[Visualiza o descarga el documento]
+https://publications.iadb.org/publications/spanish/document/IA-Responsable-Manual-tecnico-Ciclo-de-vida-de-la-inteligencia-artificial.pdf
+:::
