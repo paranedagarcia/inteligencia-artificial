@@ -1,5 +1,5 @@
 ---
-id: tipo
+id: tipos
 title: "Tipos de Inteligencia Artificial"
 sidebar_label: "💻 Tipos de IA"
 sidebar_position: 4

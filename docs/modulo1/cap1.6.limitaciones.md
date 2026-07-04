@@ -1,6 +1,6 @@
 ---
 id: limitaciones
-title: "Limitaciones y riesgos de la Inteligencia Artificial"
+title: "Limitaciones y riesgos"
 sidebar_label: "💻 Limitaciones"
 sidebar_position: 6
 description: "Las limitaciones y riesgos de la Inteligencia Artificial"

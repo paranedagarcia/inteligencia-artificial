@@ -2,7 +2,7 @@
 id: internacionales
 title: "Casos internacionales"
 sidebar_label: "💻 Casos internacionales"
-sidebar_position: 2
+sidebar_position: 3
 description: "Casos internacionales de transformación"
 ---
 

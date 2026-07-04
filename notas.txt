@@ -3,6 +3,19 @@
 - https://colab.research.google.com/drive/1S3lUwphZRBF6mobRPb_fym7AZ2AbNjcB
 :::
 
+<Tabs>
+<TabItem value="mnp" label="Antecedentes" default>
+<div class="alert alert--primary">
+**Muestreo no probabilistico:**<br />
+</div>
+</TabItem>
+<TabItem value="mnp-python" label="Pyhton" default>
+```python showLineNumbers
+# Implementación en Python
+```
+</TabItem>
+</Tabs>
+
 
 ¿Cuáles son los principales riesgos de sesgos en la IA para el Estado?
 ¿Qué es la IA Agéntica y cómo se diferencia de la IA Generativa?

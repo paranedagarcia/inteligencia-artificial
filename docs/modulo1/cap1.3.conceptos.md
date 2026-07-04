@@ -1,9 +1,10 @@
 ---
 id: conceptos
-title: "Conceptos fundamentales en Inteligencia Artificial"
+title: "Conceptos fundamentales"
 sidebar_label: "💻 Conceptos fundamentales"
 sidebar_position: 3
 description: "Conceptos fundamentales en Inteligencia Artificial"
+slug: /conceptos-fundamentales
 ---
 
 

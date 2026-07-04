@@ -62,6 +62,10 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      metadata: [
+        {name: 'keywords', content: 'ia, manual, inteligencia artificial, gestión pública, análisis de datos, estrategia, gobernanza, automatización'},
+        {name: 'author', content: 'Patricio Araneda'},
+      ],
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       colorMode: {

@@ -148,9 +148,8 @@ Comparación:
 * Salud Pública
 * Aduanas
 
-## Capítulo 3. Casos de uso en el Estado
 
-### 3.1 Casos de uso en el Estado
+### 2.5 Casos de uso en el Estado
 
 * Atención ciudadana
 * Transparencia
@@ -172,24 +171,24 @@ Uso de IA en:
 
 ---
 
-# Módulo 4 - Ciencia de Datos
+# Módulo 3 - Ciencia de Datos
 
-## Capítulo 4. Ciencia de Datos para la Gestión Pública
+## Capítulo 3. Ciencia de Datos para la Gestión Pública
 
-### 4.1 Introducción a Ciencia de Datos
+### 3.1 Introducción a Ciencia de Datos
 
 * Qué es Data Science
 * Ciclo analítico
 * CRISP-DM
 * KDD
 
-### 4.2 Datos
+### 3.2 Datos
 
 * Datos estructurados
 * Semi-estructurados
 * No estructurados
 
-### 4.3 Ciclo de vida del dato
+### 3.3 Ciclo de vida del dato
 
 * Captura
 * Limpieza
@@ -198,7 +197,7 @@ Uso de IA en:
 * Visualización
 * Eliminación
 
-### 4.4 Calidad de datos
+### 3.4 Calidad de datos
 
 * Exactitud
 * Consistencia
@@ -206,36 +205,7 @@ Uso de IA en:
 * Oportunidad
 * Disponibilidad
 
-### 4.5 Gobierno del dato
-
-* Roles
-* Responsabilidades
-* Catálogo de datos
-* Metadata
-
-### 4.6 Open Data
-
-* Datos Abiertos
-* Transparencia
-* Reutilización
----
-
-## Capítulo 5. Estadística para IA
-
-### 5.1 Introducción a la estadística
-
-* Estadística descriptiva
-* Exploración
-* Detección de anomalías
-
-* Dispersión
-* Outliers
-* Correlación
-* Visualización
-
----
-
-### 5.2 Preparación de datos
+### 3.5 Preparación de datos
 
 * limpieza
 * transformación
@@ -243,13 +213,43 @@ Uso de IA en:
 * Valores faltantes
 * Normalización
 
+
+### 3.6 Gobierno del dato
+
+* Roles
+* Responsabilidades
+* Catálogo de datos
+* Metadata
+
+### 3.7 Open Data
+
+* Datos Abiertos
+* Transparencia
+* Reutilización
+---
+
+## Capítulo 4. Estadística para IA
+
+### 4.1 Introducción a la estadística
+
+* Estadística descriptiva
+* Exploración
+* Detección de anomalías
+
+### 4.2 Analisis estadistico
+* Dispersión
+* Outliers
+* Correlación
+* Visualización
+
+
 ---
 
 # Módulo 5 - Análisis de Datos apoyado por IA
 
-## Capítulo 6. Análisis de Datos apoyado por IA
+## Capítulo 5. Análisis de Datos apoyado por IA
 
-### 6.1 IA aplicada al análisis
+### 5.1 IA aplicada al análisis
 
 Uso de IA para
 
@@ -259,7 +259,7 @@ Uso de IA para
 * explicar gráficos
 * descubrir patrones
 
-### 6.2 Uso de agentes de IA para análisis
+### 5.2 Uso de agentes de IA para análisis
 
 * ChatGPT
 * Microsoft Copilot
@@ -271,14 +271,14 @@ Uso de IA para
 
 # Módulo 6 - Prompt Engineering
 
-## Capítulo 7. Prompt Engineering
+## Capítulo 6. Prompt Engineering
 
-### 7.1 Qué es un Prompt
+### 6.1 Qué es un Prompt
 
 * Cómo piensa un LLM
 * Anatomía del Prompt
 
-### 7.2 Técnicas de Prompts
+### 6.2 Técnicas de Prompts
 * Zero Shot
 * Few Shot
 * Chain of Thought
@@ -286,13 +286,13 @@ Uso de IA para
 * Prompt Templates
 * Prompt Iterativo
 
-### 7.3 Buenas prácticas
+### 6.3 Buenas prácticas
 * Roles
 * Restricciones
 * Contexto
 * Ejemplos
 
-### 7.4 Ejemplos de Prompts
+### 6.4 Ejemplos de Prompts
 Más de **150 prompts comentados** para funcionarios públicos.
 
 Ejemplos para:
@@ -312,18 +312,18 @@ Ejemplos para:
 * Políticas públicas
 
 ---
-# Módulo 8 - Automatización de Procesos con IA
+# Módulo 7 - Automatización de Procesos con IA
 
-## Capítulo 8. Automatización Inteligente
+## Capítulo 7. Automatización Inteligente
 
-### 8.1 Automatización
+### 7.1 Automatización de procesos
 
 * BPM
 * Workflow
 * RPA
 * IA
 
-### 8.2 Herramientas
+### 7.2 Herramientas
 
 * Microsoft Power Automate
 * Copilot
@@ -331,13 +331,13 @@ Ejemplos para:
 * Make
 * n8n
 
-### 8.3 Automatización documental
+### 7.3 Automatización documental
 
 * OCR
 * Clasificación
 * Extracción de datos
 
-### 8.4 Automatización administrativa
+### 7.4 Automatización administrativa
 
 * Gestión documental
 * Atención ciudadana
@@ -345,52 +345,52 @@ Ejemplos para:
 * Correspondencia
 
 
-# Módulo 9 - Estrategia de IA
+# Módulo 8 - Estrategia de IA
 
-## Capítulo 9. Estrategia de IA
+## Capítulo 8. Estrategia de IA
 
-### 9.1 Madurez Digital
+### 8.1 Madurez Digital
 
-### 9.2 Diagnóstico
+### 8.2 Diagnóstico
 
-### 9.3 Roadmap
+### 8.3 Roadmap
 
 ### 9.4 Priorización
 
-### 9.5 Canvas IA
+### 8.5 Canvas IA
 
-### 9.6 Gestión del cambio
+### 8.6 Gestión del cambio
 
-### 9.7 Liderazgo
+### 8.7 Liderazgo
 
-### 9.8 Gestión de proyectos IA
+### 8.8 Gestión de proyectos IA
 
 ---
 
-## Capítulo 10 - Gobernanza
+## Capítulo 9 - Gobernanza
 
-### 10.1 Qué es la gobernanza?
+### 9.1 Qué es la gobernanza?
 
-### 10.2 ISO 42001
+### 9.2 ISO 42001
 
-### 10.3 ISO 38507
+### 9.3 ISO 38507
 
-### 10.4 NIST AI RMF
+### 9.4 NIST AI RMF
 
-### 10.5 OECD AI Principles
+### 9.5 OECD AI Principles
 
-### 10.6 Gobierno Digital
+### 9.6 Gobierno Digital
 
-### 10.7 Gobierno de Datos
+### 9.7 Gobierno de Datos
 
-### 10.8 Roles
+### 9.8 Roles
 
 
 ---
 
 # Módulo 10 - Ética y Regulación
 
-## Capítulo 11. Ética
+## Capítulo 10.1. Ética
 * OCDE
 * UNESCO
 * Unión Europea
@@ -405,7 +405,7 @@ Ejemplos para:
 
 ---
 
-## Capítulo 12. Regulación
+## Capítulo 10.2. Regulación
 
 ### 12.1 Protección de Datos
 * Ley chilena

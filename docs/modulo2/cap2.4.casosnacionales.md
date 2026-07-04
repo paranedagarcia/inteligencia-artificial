@@ -2,7 +2,7 @@
 id: nacionales
 title: "Casos nacionales"
 sidebar_label: "💻 Casos nacionales"
-sidebar_position: 2
+sidebar_position: 4
 description: "Casos nacionales de transformación"
 ---
 
@@ -11,3 +11,23 @@ description: "Casos nacionales de transformación"
 * Poder Judicial
 * Salud Pública
 * Aduanas
+
+### Casos de uso en el Estado
+
+* Atención ciudadana
+* Transparencia
+* Gestión documental
+* Fiscalización
+* Salud
+* Educación
+* Justicia
+
+---
+### Caso práctico
+
+Uso de IA en:
+
+* ChileCompra
+* Servicio de Impuestos Internos
+* Registro Civil
+* Atención ciudadana
