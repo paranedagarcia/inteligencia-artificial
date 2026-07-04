@@ -1,10 +1,10 @@
 ---
-id: evolucion
+id: intro
 title: "Presentación"
 sidebar_label: "💻 Presentación"
 sidebar_position: 1
 description: "Presentación e introducción a la inteligencia artificial"
-slug: /presentacion
+slug: /intro
 keywords: [inteligencia, gobernanza, automatizacion, gestion, publica]
 ---
 
