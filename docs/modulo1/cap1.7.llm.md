@@ -14,6 +14,7 @@ description: "Grandes modelos de lenguaje de la Inteligencia Artificial"
 * Llama
 * Mistral
 * DeepSeek
+* Qwen
 
 Comparación:
 

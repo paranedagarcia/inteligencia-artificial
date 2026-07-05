@@ -12,7 +12,7 @@ description: "Historia y Evolución de la Inteligencia Artificial"
 >
 > **Arthur C. Clarke**
 
----
+![](/img/1.2-ia.webp)
 
 ## Objetivos de aprendizaje
 
@@ -35,10 +35,26 @@ Suele percibirse como una tecnología reciente, especialmente tras la irrupción
 Comprender esta evolución es esencial para interpretar adecuadamente las posibilidades y limitaciones de la IA. La historia demuestra que el progreso no ha sido lineal; ha dependido de avances simultáneos en matemáticas, estadística, ciencias cognitivas, disponibilidad de datos y capacidad de procesamiento.
 
 ---
+![](/img/1.2-evolucion.webp)
 
 ## Los primeros sueños de construir una máquina inteligente
 
-Desde la Antigüedad, diversas culturas imaginaron artefactos capaces de imitar el pensamiento humano. Filósofos griegos como Aristóteles estudiaron el razonamiento lógico, sentando bases conceptuales que siglos después inspirarían el desarrollo de algoritmos.
+Desde la Antigüedad, diversas culturas imaginaron artefactos capaces de imitar el pensamiento humano. Filósofos griegos como Aristóteles estudiaron el razonamiento lógico, sentando bases conceptuales que siglos después inspirarían el desarrollo de **algoritmos**.
+
+:::info[Algoritmo]
+Un **algoritmo** se puede definir de manera técnica como un conjunto autónomo de instrucciones o pasos lógicos, detallados de forma secuencial, que una computadora o dispositivo inteligente sigue para realizar cálculos, procesar datos o ejecutar tareas de razonamiento automatizado.
+
+<details>
+<summary>Comprensión de un algoritmo...</summary>
+
+Para facilitar su comprensión en un entorno no técnico, se puede considerar como una "receta" para lograr un objetivo específico. Así como una receta de cocina indica los pasos necesarios para preparar un plato, un algoritmo establece el procedimiento exacto que debe seguir el sistema para resolver un problema o completar una tarea.
+
+En el contexto de la computación y la Inteligencia Artificial, los algoritmos presentan las siguientes características clave:
+* **Precisión**: Se expresan habitualmente en lenguajes de programación precisos para evitar ambigüedades en su ejecución.
+* **Funcionalidad**: Son la base para transformar entradas (datos) en salidas (decisiones o resultados) con significado.
+* **Evolución en IA**: A diferencia de los algoritmos convencionales que siguen reglas fijas programadas manualmente, los algoritmos de Aprendizaje Automático (**Machine Learning**) están diseñados para identificar patrones, relaciones y correlaciones en los datos por sí mismos, permitiendo que el sistema aprenda a tomar decisiones sin instrucciones explícitas para cada tarea específica.
+</details>
+:::
 
 Durante los siglos XVII y XVIII surgieron las primeras calculadoras mecánicas, desarrolladas por Blaise Pascal y Gottfried Wilhelm Leibniz, demostrando que ciertos procesos intelectuales podían automatizarse.
 
@@ -51,6 +67,8 @@ En el siglo XIX, Charles Babbage diseñó la Máquina Analítica, considerada el
 ## Alan Turing y el nacimiento de la computación moderna
 
 En 1936, el matemático británico **Alan Turing** publicó un trabajo revolucionario en el que describió un modelo matemático de computador universal, conocido hoy como la **Máquina de Turing**. Este modelo demostró que cualquier procedimiento lógico podía representarse mediante instrucciones ejecutadas por una máquina.
+
+![](/img/Alan-Turing-1A.jpg)
 
 Durante la Segunda Guerra Mundial, Turing lideró parte del equipo que desarrolló sistemas para descifrar las comunicaciones cifradas de Alemania, contribuyendo significativamente al desarrollo de la computación.
 
@@ -73,9 +91,10 @@ Durante décadas, superar el Test de Turing fue considerado un objetivo central 
 
 El nacimiento oficial de la Inteligencia Artificial se sitúa en el verano de 1956, cuando un grupo de investigadores se reunió en el **Dartmouth Summer Research Project on Artificial Intelligence**, organizado por **John McCarthy**.
 
-Fue McCarthy quien acuñó por primera vez el término **Artificial Intelligence**, definiendo un nuevo campo científico dedicado al estudio de máquinas capaces de realizar tareas que requieren inteligencia.
+Fue McCarthy quien acuñó por primera vez el término **Artificial Intelligence**, definiendo un nuevo campo científico dedicado al estudio de máquinas capaces de realizar tareas que requieren inteligencia y definió el objetivo de la disciplina: "la ciencia e ingeniería de hacer máquinas inteligentes". Desde entonces, la IA ha pasado por ciclos de gran optimismo seguidos de "inviernos de la IA", periodos donde el interés y el financiamiento disminuyeron debido a expectativas no cumplidas.
 
 Los investigadores participantes creían que era posible construir sistemas inteligentes en un plazo relativamente corto. Aunque esa expectativa resultó demasiado optimista, la conferencia marcó el inicio de una disciplina que transformaría la informática y, décadas más tarde, la gestión pública y privada.
+
 
 ---
 
@@ -99,28 +118,67 @@ El primer programa capaz de demostrar teoremas matemáticos fue desarrollado en 
 :::
 
 
-## Historia de la IA
-El origen formal de la IA se sitúa en la década de 1950, impulsado por la pregunta de Alan Turing sobre si las máquinas podían pensar. Desde sus inicios, la disciplina buscó replicar capacidades cognitivas humanas, atravesando periodos de gran optimismo seguidos por "inviernos de la IA" cuando las expectativas superaban a la capacidad computacional de la época. Hoy en día, se reconoce como una tecnología de propósito general que impacta todos los sectores que utilizan tecnologías de la información.
-
 ## Evolución de los modelos
 La evolución tecnológica no ha sido lineal, sino que ha pasado por diferentes paradigmas de resolución de problemas. Inicialmente, el enfoque se centraba en la lógica pura y la manipulación de símbolos (instrucciones manuales), para luego transitar hacia modelos que aprenden de manera autónoma a partir de grandes volúmenes de datos.
 
 #### IA Simbólica
-Conocida también como IA "clásica" o basada en reglas, la **IA simbólica** dominó el campo desde los años 50 hasta los 80. Se basa en la premisa de que la inteligencia puede ser representada mediante la manipulación de símbolos y reglas lógicas explícitas (si ocurre "A", entonces haz "B"). Aunque fue exitosa en el desarrollo de "sistemas expertos" para tareas específicas, su rigidez le impedía adaptarse a situaciones nuevas o datos ruidosos.
+![](/img/1.2-iasimbolica.webp)
+
+El concepto de **IA Simbólica**, frecuentemente denominado **GOFAI** (*Good Old-Fashioned AI* o Inteligencia Artificial Clásica de Buen Tono), representa el paradigma dominante en la investigación de la inteligencia artificial desde sus inicios en los años 50 hasta mediados de los 80. Este enfoque se basa en la premisa de que la inteligencia puede ser replicada mediante la manipulación de símbolos y reglas lógicas explícitas que representan el conocimiento humano.
+
+A continuación, se detallan sus componentes técnicos, aplicaciones y limitaciones:
+
+#### 1. Fundamentos Teóricos
+La IA simbólica opera bajo la teoría de que la representación simbólica y la computación son, por sí solas, capaces de producir inteligencia. Se fundamenta en el uso de conceptos del lenguaje natural —hechos y reglas— para representar el conocimiento necesario para resolver problemas de decisión.
+*   **Representación del Conocimiento:** Interpreta el saber humano a través de descripciones declarativas y modulares de entidades simbólicas de alto nivel.
+*   **Manipulación Lógica:** Utiliza un conjunto de reglas inferenciales para manipular dichos símbolos. Su lógica es determinista: si se cumple una condición "A", entonces se ejecuta una acción "B".
+*   **Enfoque "Top-Down" (Vía Descendente):** A diferencia del aprendizaje automático moderno, este paradigma parte de reglas generales preestablecidas por programadores para aplicarlas a casos específicos.
+
+#### 2. Sistemas Expertos: El Exponente Principal
+Los **Sistemas Expertos** fueron la aplicación más exitosa de la IA simbólica durante su auge en la década de 1980. Estos sistemas están diseñados para imitar el proceso de razonamiento de un especialista humano en un dominio muy específico y limitado.
+*   **Funcionamiento:** Utilizan un gran corpus de conocimiento (hechos y reglas) para extraer conclusiones y proporcionar soluciones a problemas complejos del mundo real.
+*   **Ejemplos Históricos:**
+    *   **DENDRAL:** Desarrollado en los años 60 para interpretar estructuras moleculares químicas.
+    *   **MYCIN:** Creado en los años 70 para el diagnóstico de enfermedades infecciosas y la recomendación de tratamientos.
+    *   **PROSPECTOR:** Utilizado en geología para la búsqueda de yacimientos minerales.
+
+#### 3. Limitaciones y el "Invierno de la IA"
+A pesar de sus éxitos iniciales en tareas formalizables y bien descritas, la IA simbólica enfrentó obstáculos críticos que llevaron a una pérdida de interés financiero y científico, periodo conocido como el "invierno de la IA".
+*   **Rigidez y Ambigüedad:** Los sistemas simbólicos demostraron ser extremadamente rígidos y tuvieron severas dificultades para manejar la ambigüedad, el ruido en los datos o situaciones no previstas explícitamente en su programación.
+*   **Escalabilidad:** A medida que el mundo real se volvía más complejo, el número de reglas necesarias crecía exponencialmente, haciendo que el mantenimiento del conocimiento fuera costoso y propenso a inconsistencias.
+*   **El Problema del Marco (*Frame Problem*):** Esta limitación filosófica y técnica resalta la dificultad de especificar qué condiciones cambian y cuáles permanecen fijas tras una acción del sistema; esencialmente, es el desafío de discernir entre información relevante e irrelevante en un entorno dinámico.
+
+En la actualidad, aunque ha sido superada en popularidad por el aprendizaje profundo (*Deep Learning*), la IA simbólica sigue siendo fundamental en áreas que requieren una **explicabilidad total** y un cumplimiento estricto de normas lógicas, como en la verificación de requisitos de seguridad o en sistemas de soporte de decisión basados en normativas legales claras.
+
 
 #### Machine Learning (Aprendizaje Automático)
+
+![](/img/1.2-machine_learning.webp)
+
 A partir de los años 90, el enfoque cambió hacia el **Machine Learning (ML)**. A diferencia de la IA simbólica, aquí no se programan todas las reglas; en su lugar, se utilizan algoritmos estadísticos para que la máquina identifique patrones en los datos y realice predicciones o tome decisiones. Es el núcleo de la mayoría de los sistemas de IA utilizados hoy en fiscalización y análisis predictivo en el Estado.
 
 #### Deep Learning (Aprendizaje Profundo)
+
+![](/img/1.2-deep.webp)
+
 Desde aproximadamente 2010, el **Deep Learning** llevó al aprendizaje automático a un nivel superior mediante el uso de redes neuronales artificiales de múltiples capas. Este avance, impulsado por el aumento masivo de datos y el poder de las tarjetas gráficas (GPU), permitió que las máquinas superaran a los humanos en tareas como el reconocimiento de imágenes y el procesamiento del lenguaje natural.
 
 #### IA Generativa
+
+![](/img/1.2-generativa.webp)
+
 Representa la etapa actual de mayor visibilidad masiva. A diferencia de los modelos anteriores que solo clasificaban o predecían, la **IA Generativa** (impulsada por modelos como GPT, Claude o Gemini) tiene la capacidad de crear contenido original y coherente (texto, imágenes, código) a partir de instrucciones en lenguaje natural o *prompts*.
 
 #### IA Agéntica
+
+![](/img/1.2-agentica.webp)
+
 Es la frontera actual de la tecnología. La **IA Agéntica** se refiere a sistemas que no solo generan contenido, sino que pueden actuar como agentes autónomos: planifican tareas, interactúan con otros programas y ejecutan acciones para cumplir un objetivo complejo sin supervisión constante paso a paso.
 
 #### IA Multimodal
+
+![](/img/1.2-multimodal.webp)
+
 Esta evolución permite que un mismo modelo procese e integre simultáneamente diversos tipos de datos, como texto, audio, imágenes y video. Un sistema multimodal puede "ver" un gráfico de un informe público, "escuchar" una consulta ciudadana y responder mediante un texto o una síntesis de voz, logrando una interacción mucho más natural.
 
 ## Tendencias futuras

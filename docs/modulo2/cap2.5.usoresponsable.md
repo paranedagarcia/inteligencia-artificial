@@ -2,7 +2,7 @@
 id: usoresponsable
 title: "Uso responsable de la IA"
 sidebar_label: "💻 Uso responsable"
-sidebar_position: 4
+sidebar_position: 5
 description: "10 Acciones para el Uso Responsable de la IA"
 ---
 

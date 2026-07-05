@@ -12,6 +12,8 @@ keywords: [inteligencia, gobernanza, automatizacion, gestion, publica]
 
 > **Análisis de Datos, Estrategia, Gobernanza y Automatización**
 
+![](/img/presentacion.webp)
+
 ## Presentación
 
 La administración pública contemporánea se enfrenta al desafío de gestionar volúmenes de información sin precedentes bajo crecientes demandas de eficiencia, transparencia y adaptabilidad. En este escenario, la Inteligencia Artificial (IA) deja de ser una mera herramienta tecnológica y se constituye como un catalizador estratégico para la creación de Valor Público. El objetivo de este manual es desmitificar la IA, estructurando sus pilares teóricos e históricos, y dotar al funcionario del marco técnico inicial indispensable para interactuar críticamente con estas tecnologías.
@@ -21,8 +23,26 @@ El despliegue de tecnologías emergentes en el ámbito gubernamental exige un ri
 
 Este manual aborda los aspectos básicos para la comprensión de estas tecnologías y otorgar las capacidades para su uso efectivo, dentro de las normas éticas y regulatorias que hace posible su utilización dentro del ámbito público.
 
+## Módulos
+
 **Módulo 1. Fundamentos de Inteligencia artificial**: introducirá a los conceptos generales para explicar esta tecnología y conocer lo que es y no es.
 
 **Módulo 2. IA aplicada**: muestra los usos generales y qué y cómo se pueden emplear.
 
 **Módulo 3. Ciencia de datos y analítica para la gestión pública**: En este módulo se abordan los conceptos fundamentales de la ciencia de datos, incluyendo la recopilación, limpieza y análisis de datos, así como la visualización y comunicación de resultados.
+
+**Módulo 4. Estadística**: Este es un módulo opcional.
+
+**Módulo 5. Ingeniería de Prompts**: Clave para alcanzar los objetivos en la interacción con las IAs generativas y agénticas.
+
+**Módulo 6. Análisis de datos por IA**: Aprenderá a usar la AI generativa y/o agentica como asistentes a su trabajo. Generando ahorros de tiempo y mejoras en eficiencia.
+
+
+
+## Evaluaciones formativas
+
+Algunos temas dentro de los moódulos contienen evaluaciones formativas que le permitirán conocer su estado de avance en el conocimiento de los temas tratados. Realice estas evaluaciones si desea conocer su grado de avance. **No son obligatorias pero si recomendables**.
+
+## Prácticos
+
+![](/img/presentacion-fin.webp)

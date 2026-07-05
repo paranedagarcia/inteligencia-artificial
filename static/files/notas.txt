@@ -23,3 +23,19 @@
 
 Dame ejemplos de IA agéntica aplicada a trámites públicos.
 ¿Cuáles son los riesgos de implementar agentes autónomos en el Estado?
+
+¿Cómo se relaciona la norma ISO 42001 con la IA Simbólica?
+¿Qué rol cumple el entrenamiento en el ciclo de vida de la IA?
+
+¿Cómo se aplica la ISO 42001 para mitigar sesgos?
+¿Qué rol juegan los tokens en la IA generativa?
+Explícame el concepto de 'soberanía tecnológica' con modelos Open Source.
+
+¿Qué es el entrenamiento de un modelo de IA?
+¿En qué consiste el estándar ISO/IEC 42001?
+¿Cuáles son los pasos del ciclo de vida de la IA?
+
+¿Qué controles recomienda la norma ISO 42001 para mitigar riesgos?
+¿Cómo se integra la supervisión humana en los agentes autónomos?
+¿Cuál es la diferencia entre el riesgo y el impacto en IA?
+¿Cuáles son los principales riesgos de sesgos en la IA para el Estado?
