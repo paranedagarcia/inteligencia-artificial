@@ -6,49 +6,58 @@ sidebar_position: 6
 description: "Las limitaciones y riesgos de la Inteligencia Artificial"
 ---
 
-* Alucinaciones
-* Sesgos
-* Sobreajuste
-* Seguridad
-* Información desactualizada
-* Privacidad
-* Dependencia tecnológica
-* Uso responsable
 
-## Alucinaciones
+## Limitaciones
 
-## Sesgo
+La adopción de la Inteligencia Artificial (IA) ofrece beneficios significativos, pero su implementación responsable exige una comprensión profunda de sus riesgos intrínsecos y sus limitaciones técnicas. Estos desafíos no son meros fallos accidentales, sino que a menudo derivan de la propia naturaleza probabilística y de los procesos de entrenamiento de los modelos.
 
-## Sobreajuste
+### Alucinaciones
+Las alucinaciones son uno de los problemas más críticos de los modelos de lenguaje (LLM), donde el sistema genera respuestas que parecen gramaticalmente correctas y muy convincentes, pero que son fácticamente falsas o carecen de sustento en la realidad. Este fenómeno ocurre porque los modelos no poseen una comprensión del mundo, sino que operan prediciendo el siguiente fragmento de texto (token) más probable basándose en patrones estadísticos. Un modelo puede "alucinar" por falta de información en su entrenamiento o por instrucciones que lo fuerzan a adivinar, pudiendo incluso "doblar la apuesta" sobre sus propios errores si se le cuestiona dentro de la misma conversación. Para mitigar esto, se utilizan técnicas como [**RAG** (Generación Aumentada por Recuperación)](/docs/modulo1/cap1.8.rag.md), que obliga al modelo a consultar fuentes externas verídicas antes de responder.
 
-## Seguridad
+### Sesgos (Bias)
+El sesgo se refiere a la producción de resultados sistemáticamente distorsionados o discriminatorios, frecuentemente afectando a grupos protegidos por raza, género, edad o religión. Estos prejuicios suelen ser un reflejo de las desigualdades e injusticias históricas presentes en los datos de entrenamiento recolectados de internet. En el sector público, el sesgo puede tener consecuencias graves, como calificar erróneamente el riesgo de salud de ciertos grupos étnicos o penalizar injustamente a mujeres en procesos de selección de personal. Eliminar el sesgo es extremadamente difícil porque los modelos pueden identificar correlaciones sutiles que sirven como "proxies" de atributos protegidos (como el código postal para inferir nivel socioeconómico).
 
-## Información desactualizada
+### Sobreajuste (Overfitting)
+El sobreajuste ocurre cuando un modelo de IA se vuelve demasiado complejo y "memoriza" el ruido o las particularidades específicas de sus datos de entrenamiento en lugar de aprender los patrones generales. Como resultado, el modelo funciona de manera excelente con los datos conocidos, pero falla estrepitosamente al procesar información nueva en el mundo real, perdiendo su capacidad de generalización. Es un riesgo común cuando se intenta entrenar modelos con conjuntos de datos muy pequeños o desbalanceados.
 
-## Privacidad
+### Seguridad
+La IA introduce vulnerabilidades de seguridad específicas que van más allá de los sistemas informáticos tradicionales. Entre estas destacan:
+*   **Prompt Injection:** Manipulación de las instrucciones de entrada para forzar al modelo a ignorar sus filtros de seguridad y realizar acciones no autorizadas.
+*   **Data Poisoning (Envenenamiento de datos):** Inserción deliberada de datos maliciosos durante la fase de entrenamiento para crear "puertas traseras" que el atacante puede explotar posteriormente.
+*   **Extracción de Modelos:** Ataques diseñados para robar los parámetros internos o el conocimiento propietario de una IA mediante consultas sistemáticas a su interfaz.
 
-## Dependencia tecnológica
+### Información Desactualizada
+Los modelos de IA poseen una "fecha de corte de conocimiento" (*knowledge cut-off*), lo que significa que no tienen conciencia de ningún evento ocurrido después de que finalizó su entrenamiento. Confiar en un modelo para tareas que requieren actualidad inmediata (como normativas legales recientes o noticias) sin el uso de herramientas de búsqueda en tiempo real puede llevar a decisiones basadas en datos obsoletos.
+
+### Privacidad
+El uso de IA plantea riesgos severos de filtración de información sensible o **PII** (Información de Identificación Personal). Los modelos pueden "memorizar" datos privados presentes en sus bases de entrenamiento y luego regurgitarlos ante preguntas específicas de terceros. Además, existe el riesgo de fuga de datos cuando los funcionarios ingresan información confidencial del Estado en chatbots públicos que utilizan esos diálogos para seguir entrenándose. La implementación de tecnologías de preservación de la privacidad (**PET**) es esencial para mitigar estos riesgos.
+
+### Dependencia Tecnológica
+La delegación excesiva de funciones intelectuales y administrativas a los sistemas de IA puede derivar en un debilitamiento humano (*human enfeeblement*), donde el personal estatal pierde las capacidades críticas y el conocimiento necesario para gobernar de forma autónoma. Existe también el riesgo de dependencia de proveedores específicos (*vendor lock-in*), dificultando la soberanía tecnológica si las instituciones dependen totalmente de herramientas propietarias externas cuyas políticas o costos pueden cambiar bruscamente.
+
+### Uso Responsable
+El uso responsable de la IA requiere un marco de gobernanza que priorice los valores humanos, la equidad y la rendición de cuentas. Estándares internacionales como la [**ISO 42001**](/docs/modulo9/cap9.2.iso42001.md) proporcionan directrices para gestionar estos riesgos de manera sistemática a lo largo de todo el ciclo de vida del sistema. En la administración pública, es imperativo garantizar un "control humano significativo" (*meaningful human oversight*), asegurando que las decisiones finales que afectan a la ciudadanía siempre residan en personas responsables y no únicamente en algoritmos.
 
 ## Riesgos de los agentes autonomos
 
-La implementación de **agentes autónomos (IA Agéntica)** en la administración pública conlleva desafíos y riesgos significativos que van más allá de los asociados a la IA tradicional. Debido a su capacidad para planificar y ejecutar acciones sin supervisión humana constante, estos sistemas pueden amplificar vulnerabilidades existentes o crear nuevas contingencias operativas y éticas [4, 1.1, 1.2].
+La implementación de **agentes autónomos (IA Agéntica)** en la administración pública conlleva desafíos y riesgos significativos que van más allá de los asociados a la IA tradicional. Debido a su capacidad para planificar y ejecutar acciones sin supervisión humana constante, estos sistemas pueden amplificar vulnerabilidades existentes o crear nuevas contingencias operativas y éticas.
 
-A continuación, se detallan los principales riesgos de implementar agentes autónomos en el Estado, basados en las fuentes y los estándares internacionales como la **ISO 42001**:
+A continuación, se detallan los principales riesgos de implementar agentes autónomos en el Estado, basados en las fuentes y los estándares internacionales como la [**ISO 42001**](/docs/modulo9/cap9.2.iso42001.md):
 
 #### Desafíos en la Rendición de Cuentas (Accountability)
 Uno de los mayores riesgos es el cambio en los marcos de responsabilidad. Cuando un sistema actúa de forma autónoma, se diluye la cadena de mando tradicional. Si un agente toma una decisión administrativa errónea o ejecuta una acción perjudicial, surge la dificultad de determinar quién es el responsable: si el desarrollador, el funcionario que definió el objetivo o la institución en su conjunto.
 
 #### Pérdida de Supervisión Humana Significativa
-La IA agéntica está diseñada para resolver problemas intermedios de forma independiente [1.2]. Esto genera el riesgo de que el sistema opere fuera de los márgenes previstos si no se integran mecanismos de **supervisión humana significativa** (Meaningful Human Oversight). La falta de intervención humana en pasos críticos puede llevar a la ejecución de tareas que, aunque técnicamente cumplen el "objetivo", violan principios éticos o normativas administrativas no explicitadas [1.1, 227].
+La IA agéntica está diseñada para resolver problemas intermedios de forma independiente [1.2]. Esto genera el riesgo de que el sistema opere fuera de los márgenes previstos si no se integran mecanismos de **supervisión humana significativa** (Meaningful Human Oversight). La falta de intervención humana en pasos críticos puede llevar a la ejecución de tareas que, aunque técnicamente cumplen el "objetivo", violan principios éticos o normativas administrativas no explicitadas.
 
 #### Opacidad y Falta de Explicabilidad
 La complejidad de los agentes autónomos puede dificultar que los funcionarios o la ciudadanía comprendan cómo y por qué se tomó una decisión o se ejecutó un plan de acción. La falta de transparencia en el razonamiento del agente es una fuente de riesgo para la **confianza pública** y la legitimidad del Estado.
 
 #### Ejecución de "Alucinaciones" y Errores Factuáles
-Los agentes autónomos heredan el riesgo de las **alucinaciones** (generar información falsa con apariencia de verdad) [4, 1.5]. El riesgo se agrava en un agente porque este no solo "dice" algo falso, sino que puede **actuar** basándose en esa información falsa, como iniciar un proceso de cobro erróneo o denegar un beneficio social fundamentado en una interpretación incorrecta de los datos [1.1, 1.5].
+Los agentes autónomos heredan el riesgo de las **alucinaciones** (generar información falsa con apariencia de verdad). El riesgo se agrava en un agente porque este no solo "dice" algo falso, sino que puede **actuar** basándose en esa información falsa, como iniciar un proceso de cobro erróneo o denegar un beneficio social fundamentado en una interpretación incorrecta de los datos.
 
 #### Sesgos Algorítmicos y Discriminación
-Si los datos de entrenamiento contienen prejuicios, los agentes autónomos pueden replicarlos y amplificarlos a gran escala [4, 1.5]. En el Estado, esto puede traducirse en una distribución desigual de recursos, sesgos en la fiscalización o discriminación involuntaria contra grupos vulnerables en la asignación de servicios públicos.
+Si los datos de entrenamiento contienen prejuicios, los agentes autónomos pueden replicarlos y amplificarlos a gran escala. En el Estado, esto puede traducirse en una distribución desigual de recursos, sesgos en la fiscalización o discriminación involuntaria contra grupos vulnerables en la asignación de servicios públicos.
 
 #### Riesgos de Ciberseguridad Específicos
 Los sistemas agénticos son vulnerables a ataques diseñados para engañar su lógica de razonamiento:

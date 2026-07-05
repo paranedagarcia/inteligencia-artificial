@@ -116,7 +116,7 @@ const config = {
             ],
           },
           {
-            title: 'Community',
+            title: 'Conecta',
             items: [
               {
                 label: 'Website',
@@ -127,9 +127,10 @@ const config = {
                 href: 'https://www.linkedin.com/in/patricioaraneda',
               },
               {
-                label: 'X',
-                href: 'https://twitter.com/paranedagarcia',
+                label: 'Whatsapp',
+                href: 'https://wa.me/56978872845',
               },
+              
             ],
           },
           {
@@ -141,8 +142,8 @@ const config = {
                 href: 'https://github.com/paranedagarcia/ia-gestionpublica',
               },
               {
-                label: 'Whatsapp',
-                href: 'https://wa.me/56978872845',
+                label: 'Correo',
+                href: 'mailto:paraneda@ug.uchile.cl',
               }
             ],
           },

@@ -121,7 +121,7 @@ El primer programa capaz de demostrar teoremas matemáticos fue desarrollado en 
 ## Evolución de los modelos
 La evolución tecnológica no ha sido lineal, sino que ha pasado por diferentes paradigmas de resolución de problemas. Inicialmente, el enfoque se centraba en la lógica pura y la manipulación de símbolos (instrucciones manuales), para luego transitar hacia modelos que aprenden de manera autónoma a partir de grandes volúmenes de datos.
 
-#### IA Simbólica
+### IA Simbólica
 ![](/img/1.2-iasimbolica.webp)
 
 El concepto de **IA Simbólica**, frecuentemente denominado **GOFAI** (*Good Old-Fashioned AI* o Inteligencia Artificial Clásica de Buen Tono), representa el paradigma dominante en la investigación de la inteligencia artificial desde sus inicios en los años 50 hasta mediados de los 80. Este enfoque se basa en la premisa de que la inteligencia puede ser replicada mediante la manipulación de símbolos y reglas lógicas explícitas que representan el conocimiento humano.
@@ -151,31 +151,31 @@ A pesar de sus éxitos iniciales en tareas formalizables y bien descritas, la IA
 En la actualidad, aunque ha sido superada en popularidad por el aprendizaje profundo (*Deep Learning*), la IA simbólica sigue siendo fundamental en áreas que requieren una **explicabilidad total** y un cumplimiento estricto de normas lógicas, como en la verificación de requisitos de seguridad o en sistemas de soporte de decisión basados en normativas legales claras.
 
 
-#### Machine Learning (Aprendizaje Automático)
+### Machine Learning (Aprendizaje Automático)
 
 ![](/img/1.2-machine_learning.webp)
 
 A partir de los años 90, el enfoque cambió hacia el **Machine Learning (ML)**. A diferencia de la IA simbólica, aquí no se programan todas las reglas; en su lugar, se utilizan algoritmos estadísticos para que la máquina identifique patrones en los datos y realice predicciones o tome decisiones. Es el núcleo de la mayoría de los sistemas de IA utilizados hoy en fiscalización y análisis predictivo en el Estado.
 
-#### Deep Learning (Aprendizaje Profundo)
+### Deep Learning (Aprendizaje Profundo)
 
 ![](/img/1.2-deep.webp)
 
 Desde aproximadamente 2010, el **Deep Learning** llevó al aprendizaje automático a un nivel superior mediante el uso de redes neuronales artificiales de múltiples capas. Este avance, impulsado por el aumento masivo de datos y el poder de las tarjetas gráficas (GPU), permitió que las máquinas superaran a los humanos en tareas como el reconocimiento de imágenes y el procesamiento del lenguaje natural.
 
-#### IA Generativa
+### IA Generativa
 
 ![](/img/1.2-generativa.webp)
 
 Representa la etapa actual de mayor visibilidad masiva. A diferencia de los modelos anteriores que solo clasificaban o predecían, la **IA Generativa** (impulsada por modelos como GPT, Claude o Gemini) tiene la capacidad de crear contenido original y coherente (texto, imágenes, código) a partir de instrucciones en lenguaje natural o *prompts*.
 
-#### IA Agéntica
+### IA Agéntica
 
 ![](/img/1.2-agentica.webp)
 
 Es la frontera actual de la tecnología. La **IA Agéntica** se refiere a sistemas que no solo generan contenido, sino que pueden actuar como agentes autónomos: planifican tareas, interactúan con otros programas y ejecutan acciones para cumplir un objetivo complejo sin supervisión constante paso a paso.
 
-#### IA Multimodal
+### IA Multimodal
 
 ![](/img/1.2-multimodal.webp)
 
@@ -183,6 +183,6 @@ Esta evolución permite que un mismo modelo procese e integre simultáneamente d
 
 ## Tendencias futuras
 El futuro de la IA apunta hacia la búsqueda de la **IA General (AGI)**, una inteligencia capaz de realizar cualquier tarea intelectual humana. No obstante, las tendencias más inmediatas se centran en:
-*   **IA Responsable y Ética:** La implementación de marcos como la **ISO 42001** para asegurar que el desarrollo sea seguro, transparente y respete los derechos humanos.
+*   **IA Responsable y Ética:** La implementación de marcos como la [**ISO 42001**](/docs/modulo9/cap9.2.iso42001.md) para asegurar que el desarrollo sea seguro, transparente y respete los derechos humanos.
 *   **Soberanía Tecnológica:** El uso de modelos *Open Source* (como Llama o Mistral) que permiten a las instituciones públicas gestionar sus propios modelos sin depender exclusivamente de proveedores externos.
 *   **Sostenibilidad:** Reducir el alto impacto ambiental y consumo energético del entrenamiento de grandes modelos.

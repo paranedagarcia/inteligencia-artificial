@@ -76,29 +76,3 @@ En resumen, mientras que el **Fine Tuning** es útil para que la IA aprenda a ha
 | Riesgo de alucinaciones | Bajo | Medio |
 | Especialización | Alta en dominios específicos | Alta en dominios específicos |
 
-#### RAG y alucinaciones: un enfoque preventivo
-
-La técnica **RAG** (Generación Aumentada por Recuperación) constituye una de las herramientas más eficaces para mitigar el fenómeno de las **alucinaciones** en los modelos de lenguaje. Para comprender cómo lo logra, es necesario definir ambos conceptos y analizar su interacción técnica:
-
-### 1. El problema: Las alucinaciones
-Las alucinaciones son una limitación intrínseca de los modelos de inteligencia artificial generativa, donde el sistema produce respuestas que parecen gramaticalmente correctas y convincentes, pero que son **fácticamente falsas o carecen de sustento en la realidad**. Esto ocurre porque los modelos predicen la siguiente palabra más probable basándose únicamente en sus datos de entrenamiento previos, los cuales pueden estar incompletos, sesgados o desactualizados.
-
-### 2. La solución: ¿Cómo funciona RAG?
-La técnica RAG introduce un paso intermedio crucial antes de que la IA genere una respuesta. En lugar de confiar exclusivamente en su "memoria" interna, el proceso sigue estos pasos:
-
-*   **Consulta externa:** Ante una pregunta del usuario, el sistema busca activamente información en **fuentes de datos externas, fidedignas y actualizadas** (como bases de datos institucionales, leyes vigentes o informes técnicos).
-*   **Contexto enriquecido:** Los datos recuperados se entregan al modelo como contexto adicional junto con la pregunta original.
-*   **Generación fundamentada:** La IA utiliza esta información específica para construir su respuesta, actuando más como un "analista que consulta un libro" que como un sistema que intenta "recordar" de memoria.
-
-### 3. Mecanismos específicos para evitar el error
-RAG ayuda a evitar alucinaciones de tres formas principales:
-
-*   **Verificabilidad:** Al basar la respuesta en documentos específicos, el sistema puede citar las fuentes utilizadas, permitiendo al funcionario público verificar la veracidad de la información.
-*   **Reducción del vacío de información:** Muchas alucinaciones ocurren cuando el modelo no conoce la respuesta pero intenta ser colaborativo; RAG llena ese vacío con datos concretos.
-*   **Actualización constante:** Mientras que el entrenamiento de un modelo (o *Fine Tuning*) requiere procesos costosos y lentos, la base de datos de un sistema RAG puede actualizarse al instante, evitando errores por información obsoleta.
-
-En conclusión, el uso de RAG transforma a la IA de un sistema puramente creativo en un asistente de **gestión del conocimiento** mucho más riguroso y confiable para la administración pública.
-
-¿Qué papel juegan los Embeddings en la técnica RAG?
-¿Cómo se integra RAG con la norma ISO 42001?
-¿Qué diferencias técnicas hay entre RAG y Fine Tuning?
