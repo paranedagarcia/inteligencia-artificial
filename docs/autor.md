@@ -45,7 +45,7 @@ Profesional senior con +30 años de experiencia en informática y software, espe
 
 **UCHILE**: Bioestadística, Matemática para Bioestadística (postgrado)
 
-## Contacto
+## ​🌎​ Contacto
 
 * **Web**: https://patricioaraneda.cl
 * **Email**: [paraneda@ug.uchile.cl](mailto:paraneda@ug.uchile.cl)
