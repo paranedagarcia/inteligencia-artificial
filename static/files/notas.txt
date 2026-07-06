@@ -16,6 +16,16 @@
 </TabItem>
 </Tabs>
 
+
+<iframe
+    src="https://www.youtube.com/watch?v=-sd6lTADM8k"
+    width="100%"
+    frameborder="0" 
+    allowfullscreen>
+    </iframe>
+
+<YouTubeVideo id="a5qI551l0wo" title="Etica y regulación en la IA" />
+    
 ¿Qué papel juegan los Embeddings en la técnica RAG?
 ¿Cómo se integra RAG con la norma ISO 42001?
 ¿Qué diferencias técnicas hay entre RAG y Fine Tuning?

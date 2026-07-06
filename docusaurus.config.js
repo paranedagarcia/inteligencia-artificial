@@ -13,6 +13,7 @@ const config = {
   title: 'Inteligencia Artificial para la Gestión Pública',
   tagline: 'Análisis de Datos, Estrategia, Gobernanza y Automatización',
   favicon: 'img/favicon.ico',
+  staticDirectories: ['public', 'static'],
 
   markdown: {
     mermaid: true,
