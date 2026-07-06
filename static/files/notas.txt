@@ -16,6 +16,11 @@
 </TabItem>
 </Tabs>
 
+¿Qué papel juegan los Embeddings en la técnica RAG?
+¿Cómo se integra RAG con la norma ISO 42001?
+¿Qué diferencias técnicas hay entre RAG y Fine Tuning?
+
+---
 
 ¿Cuáles son los principales riesgos de sesgos en la IA para el Estado?
 ¿Qué es la IA Agéntica y cómo se diferencia de la IA Generativa?

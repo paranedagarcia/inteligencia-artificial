@@ -48,6 +48,3 @@ RAG ayuda a evitar alucinaciones de tres formas principales:
 
 En conclusión, el uso de RAG transforma a la IA de un sistema puramente creativo en un asistente de **gestión del conocimiento** mucho más riguroso y confiable para la administración pública.
 
-¿Qué papel juegan los Embeddings en la técnica RAG?
-¿Cómo se integra RAG con la norma ISO 42001?
-¿Qué diferencias técnicas hay entre RAG y Fine Tuning?

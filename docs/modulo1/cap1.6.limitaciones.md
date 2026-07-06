@@ -7,18 +7,43 @@ description: "Las limitaciones y riesgos de la Inteligencia Artificial"
 ---
 
 
-## Limitaciones
-
 La adopción de la Inteligencia Artificial (IA) ofrece beneficios significativos, pero su implementación responsable exige una comprensión profunda de sus riesgos intrínsecos y sus limitaciones técnicas. Estos desafíos no son meros fallos accidentales, sino que a menudo derivan de la propia naturaleza probabilística y de los procesos de entrenamiento de los modelos.
 
+## Limitaciones
+
+Las consideraciones en este tema tienen que ver con la tecnología detrás de la IA, y con la certeza de que no estamos frente a una herramienta infalible, a pesar de lo "inteligente" que parezca. No debe olvidarse que su conocimiento es amplio pero igualmente limitado y basado en probabilidades.
+
 ### Alucinaciones
+
+![](/img/1.6-alucinaciones.webp)
+
 Las alucinaciones son uno de los problemas más críticos de los modelos de lenguaje (LLM), donde el sistema genera respuestas que parecen gramaticalmente correctas y muy convincentes, pero que son fácticamente falsas o carecen de sustento en la realidad. Este fenómeno ocurre porque los modelos no poseen una comprensión del mundo, sino que operan prediciendo el siguiente fragmento de texto (token) más probable basándose en patrones estadísticos. Un modelo puede "alucinar" por falta de información en su entrenamiento o por instrucciones que lo fuerzan a adivinar, pudiendo incluso "doblar la apuesta" sobre sus propios errores si se le cuestiona dentro de la misma conversación. Para mitigar esto, se utilizan técnicas como [**RAG** (Generación Aumentada por Recuperación)](/docs/modulo1/cap1.8.rag.md), que obliga al modelo a consultar fuentes externas verídicas antes de responder.
 
 ### Sesgos (Bias)
+
+![](/img/1.6-sesgos.webp)
 El sesgo se refiere a la producción de resultados sistemáticamente distorsionados o discriminatorios, frecuentemente afectando a grupos protegidos por raza, género, edad o religión. Estos prejuicios suelen ser un reflejo de las desigualdades e injusticias históricas presentes en los datos de entrenamiento recolectados de internet. En el sector público, el sesgo puede tener consecuencias graves, como calificar erróneamente el riesgo de salud de ciertos grupos étnicos o penalizar injustamente a mujeres en procesos de selección de personal. Eliminar el sesgo es extremadamente difícil porque los modelos pueden identificar correlaciones sutiles que sirven como "proxies" de atributos protegidos (como el código postal para inferir nivel socioeconómico).
 
 ### Sobreajuste (Overfitting)
+
+![](/img/1.6-sobreajuste.webp)
+
 El sobreajuste ocurre cuando un modelo de IA se vuelve demasiado complejo y "memoriza" el ruido o las particularidades específicas de sus datos de entrenamiento en lugar de aprender los patrones generales. Como resultado, el modelo funciona de manera excelente con los datos conocidos, pero falla estrepitosamente al procesar información nueva en el mundo real, perdiendo su capacidad de generalización. Es un riesgo común cuando se intenta entrenar modelos con conjuntos de datos muy pequeños o desbalanceados.
+
+<details>
+<summary>Ejemplo de sobreajuste</summary>
+
+**El Problema:** Se intenta que una red neuronal de tipo Perceptrón Multicapa (MLP) aprenda a predecir valores basados en la función matemática $y = cos(0.7x) + sin(0.3x)$.
+
+**Los Datos:** El modelo dispone únicamente de un conjunto de entrenamiento muy pequeño, compuesto por **41 datos**.
+
+**La Configuración Errónea:** El ingeniero diseña una red con una **capacidad excesiva** para la cantidad de información disponible, utilizando, por ejemplo, 20 neuronas en la capa oculta.
+
+**El Resultado (Sobreajuste):** Debido a que el modelo es demasiado complejo y tiene "demasiados grados de libertad", no se limita a aprender la curva general de la función. En su lugar, realiza lo que se conoce como una **"interpolación exacta"**: el modelo se "contorsiona" para pasar exactamente por cada uno de los 41 puntos.
+
+**La Falla:** En el conjunto de entrenamiento, el error será prácticamente **cero**. Sin embargo, si se introducen datos nuevos que siguen la misma función pero que no tienen ese ruido específico, el modelo fallará por completo. Esto ocurre porque el sistema ha "memorizado" las particularidades de esos 41 puntos específicos en lugar de generalizar el patrón real de la curva.
+</details>
+
 
 ### Seguridad
 La IA introduce vulnerabilidades de seguridad específicas que van más allá de los sistemas informáticos tradicionales. Entre estas destacan:
@@ -27,6 +52,9 @@ La IA introduce vulnerabilidades de seguridad específicas que van más allá de
 *   **Extracción de Modelos:** Ataques diseñados para robar los parámetros internos o el conocimiento propietario de una IA mediante consultas sistemáticas a su interfaz.
 
 ### Información Desactualizada
+
+![](/img/1.6-calidad.webp)
+
 Los modelos de IA poseen una "fecha de corte de conocimiento" (*knowledge cut-off*), lo que significa que no tienen conciencia de ningún evento ocurrido después de que finalizó su entrenamiento. Confiar en un modelo para tareas que requieren actualidad inmediata (como normativas legales recientes o noticias) sin el uso de herramientas de búsqueda en tiempo real puede llevar a decisiones basadas en datos obsoletos.
 
 ### Privacidad
@@ -38,7 +66,9 @@ La delegación excesiva de funciones intelectuales y administrativas a los siste
 ### Uso Responsable
 El uso responsable de la IA requiere un marco de gobernanza que priorice los valores humanos, la equidad y la rendición de cuentas. Estándares internacionales como la [**ISO 42001**](/docs/modulo9/cap9.2.iso42001.md) proporcionan directrices para gestionar estos riesgos de manera sistemática a lo largo de todo el ciclo de vida del sistema. En la administración pública, es imperativo garantizar un "control humano significativo" (*meaningful human oversight*), asegurando que las decisiones finales que afectan a la ciudadanía siempre residan en personas responsables y no únicamente en algoritmos.
 
-## Riesgos de los agentes autonomos
+## Riesgos de los agentes autónomos
+
+![](/img/1.6-eticos.webp)
 
 La implementación de **agentes autónomos (IA Agéntica)** en la administración pública conlleva desafíos y riesgos significativos que van más allá de los asociados a la IA tradicional. Debido a su capacidad para planificar y ejecutar acciones sin supervisión humana constante, estos sistemas pueden amplificar vulnerabilidades existentes o crear nuevas contingencias operativas y éticas.
 
@@ -77,6 +107,8 @@ Para mitigar estos peligros, las instituciones deben adoptar sistemas de gestió
 
 ## Riesgos en el estado
 
+![](/img/1.6-transparencia.webp)
+
 La implementación de **agentes autónomos (IA Agéntica)** en el Estado conlleva riesgos significativos que trascienden los de la IA tradicional, debido a su capacidad para planificar y ejecutar acciones sin supervisión humana constante. Al permitir que los sistemas realicen "acciones de escritura" (como transferencias bancarias o modificaciones de bases de datos), el potencial de daño ante un fallo aumenta exponencialmente.
 
 Los principales riesgos se pueden categorizar de la siguiente manera:
@@ -99,4 +131,4 @@ Los principales riesgos se pueden categorizar de la siguiente manera:
 *   **Deshumanización de la gestión pública:** El uso de robots o agentes para tareas que requieren empatía o clemencia (como en servicios sociales o justicia) puede percibirse como una deshumanización del Estado, afectando la confianza ciudadana y la legitimidad de las instituciones.
 *   **Debilitamiento humano (*Human Enfeeblement*):** La delegación progresiva de todas las funciones intelectuales y administrativas a los agentes puede llevar a un estado de dependencia total, donde el personal del Estado pierda las capacidades y el conocimiento necesario para gobernar por sí mismo.
 
-Para mitigar estos riesgos, marcos como la **ISO 42001** y el **NIST AI RMF** enfatizan la necesidad de realizar evaluaciones de impacto constantes y de implementar mecanismos de "apagado de emergencia" que garanticen que la autoridad final siempre resida en una persona.
+Para mitigar estos riesgos, es que se crearon marcos como la [**ISO 42001**](/docs/modulo9/cap9.2.iso42001.md) y el [**NIST AI RMF**](/docs/modulo9/cap9.4.nist.md) enfatizan la necesidad de realizar evaluaciones de impacto constantes y de implementar mecanismos de "apagado de emergencia" que garanticen que la autoridad final siempre resida en una persona.
