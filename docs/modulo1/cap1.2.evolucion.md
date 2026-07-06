@@ -183,6 +183,6 @@ Esta evolución permite que un mismo modelo procese e integre simultáneamente d
 
 ## Tendencias futuras
 El futuro de la IA apunta hacia la búsqueda de la **IA General (AGI)**, una inteligencia capaz de realizar cualquier tarea intelectual humana. No obstante, las tendencias más inmediatas se centran en:
-*   **IA Responsable y Ética:** La implementación de marcos como la [**ISO 42001**](/docs/modulo9/cap9.2.iso42001.md) para asegurar que el desarrollo sea seguro, transparente y respete los derechos humanos.
+*   **IA Responsable y Ética:** La implementación de marcos como la [**ISO 42001**](https://patricioaraneda.cl/ia-gestionpublica/docs/iso42001) para asegurar que el desarrollo sea seguro, transparente y respete los derechos humanos.
 *   **Soberanía Tecnológica:** El uso de modelos *Open Source* (como Llama o Mistral) que permiten a las instituciones públicas gestionar sus propios modelos sin depender exclusivamente de proveedores externos.
 *   **Sostenibilidad:** Reducir el alto impacto ambiental y consumo energético del entrenamiento de grandes modelos.

@@ -1,9 +1,9 @@
 ---
 id: rag
-title: "RAG (Generación Aumentada por Recuperación)"
-sidebar_label: "💻 RAG"
-sidebar_position: 8
-description: "RAG (Generación Aumentada por Recuperación)"
+title: "Bases de Deep Learning"
+sidebar_label: "💻 Bases de deep learning"
+sidebar_position: 2
+description: "Bases de deep learning"
 ---
 
 La Generación Aumentada por Recuperación, conocida como **RAG** (por sus siglas en inglés, *Retrieval-Augmented Generation*), es una técnica arquitectónica que permite a los Modelos de Lenguaje Extensos (LLM) acceder a datos externos y actualizados que no formaban parte de su entrenamiento original. En términos sencillos, el RAG actúa como una "memoria externa" o un sistema de consulta a libro abierto para la IA, permitiéndole responder preguntas sobre documentos específicos, normativas internas o información de tiempo real. Su propósito fundamental es reducir las "alucinaciones" (respuestas falsas pero convincentes) y proporcionar respuestas factualmente precisas que el usuario pueda verificar mediante la citación de fuentes.

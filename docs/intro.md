@@ -8,11 +8,11 @@ slug: /intro
 keywords: [inteligencia, gobernanza, automatizacion, gestion, publica]
 ---
 
-# Inteligencia Artificial para la Gestión Pública
+# Inteligencia Artificial (para todos)
 
-> **Análisis de Datos, Estrategia, Gobernanza y Automatización**
+> **Análisis de Datos, Estrategia y Automatización**
 
-![](/img/presentacion.webp)
+![](/img/ia-presentacion.webp)
 
 ## Presentación
 
@@ -29,13 +29,9 @@ Este manual aborda los aspectos básicos para la comprensión de estas tecnolog�
 
 **Módulo 2. IA aplicada**: muestra los usos generales y qué y cómo se pueden emplear.
 
-**Módulo 3. Ciencia de datos y analítica para la gestión pública**: En este módulo se abordan los conceptos fundamentales de la ciencia de datos, incluyendo la recopilación, limpieza y análisis de datos, así como la visualización y comunicación de resultados.
+**Módulo 3. Deep Learning**: En este módulo se presentan los aspectos generales para la comprensión de las técnicas y fundamentos de las redes neuronales.
 
-**Módulo 4. Estadística**: Este es un módulo opcional.
 
-**Módulo 5. Ingeniería de Prompts**: Clave para alcanzar los objetivos en la interacción con las IAs generativas y agénticas.
-
-**Módulo 6. Análisis de datos por IA**: Aprenderá a usar la AI generativa y/o agentica como asistentes a su trabajo. Generando ahorros de tiempo y mejoras en eficiencia.
 
 
 
@@ -43,6 +39,3 @@ Este manual aborda los aspectos básicos para la comprensión de estas tecnolog�
 
 Algunos temas dentro de los moódulos contienen evaluaciones formativas que le permitirán conocer su estado de avance en el conocimiento de los temas tratados. Realice estas evaluaciones si desea conocer su grado de avance. **No son obligatorias pero si recomendables**.
 
-## Prácticos
-
-![](/img/presentacion-fin.webp)

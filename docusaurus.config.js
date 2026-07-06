@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Inteligencia Artificial para la Gestión Pública',
-  tagline: 'Análisis de Datos, Estrategia, Gobernanza y Automatización',
+  title: 'Inteligencia Artificial',
+  tagline: 'Análisis de Datos y Automatización',
   favicon: 'img/favicon.ico',
   staticDirectories: ['public', 'static'],
 
@@ -31,12 +31,12 @@ const config = {
   url: 'https://patricioaraneda.cl',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/ia-gestionpublica',
+  baseUrl: '/inteligencia-artificial/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'patricioaraneda', // Usually your GitHub org/user name.
-  projectName: 'ia-gestionpublica', // Usually your repo name.
+  projectName: 'inteligencia-artificial', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 
@@ -94,7 +94,7 @@ const config = {
           },
           //{to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/paranedagarcia/ia-gestionpublica',
+            href: 'https://github.com/paranedagarcia/inteligencia-artificial',
             label: 'GitHub',
             position: 'right',
           },
@@ -140,7 +140,7 @@ const config = {
              
               {
                 label: 'GitHub',
-                href: 'https://github.com/paranedagarcia/ia-gestionpublica',
+                href: 'https://github.com/paranedagarcia/inteligencia-artificial',
               },
               {
                 label: 'Correo',
@@ -149,7 +149,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Patricio Araneda G. | Inteligencia Artificial para la Gestión Pública, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Patricio Araneda G. | Inteligencia Artificial, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,

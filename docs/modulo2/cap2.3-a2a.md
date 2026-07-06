@@ -2,7 +2,7 @@
 id: a2a
 title: "Protocolo Agente to Agente (A2A)"
 sidebar_label: "💻 Agente to Agente"
-sidebar_position: 8
+sidebar_position: 3
 description: "Protocolo Agente to Agente (A2A) como estándar abierto"
 ---
 

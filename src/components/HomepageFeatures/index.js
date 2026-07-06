@@ -4,32 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Fundamentos de IA',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Aprende los conceptos fundamentales de la Inteligencia Artificial y su aplicación en diferentes contextos sobre la base de sus técnicas y algoritmos.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'IA Avanzada',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Comprende el uso de LLMs y sus aplicacióones en diferentes aspectos de la vida cotidiana y laboral. Aprende a utilizar los agentes de IA.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Deep Learning',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Aprende sobre redes neuronales profundas. Elimina las cajas negras de tu modelo de IA y comprende cómo funcionan los algoritmos de aprendizaje profundo.
       </>
     ),
   },

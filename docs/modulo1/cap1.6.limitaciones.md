@@ -64,7 +64,7 @@ El uso de IA plantea riesgos severos de filtración de información sensible o *
 La delegación excesiva de funciones intelectuales y administrativas a los sistemas de IA puede derivar en un debilitamiento humano (*human enfeeblement*), donde el personal estatal pierde las capacidades críticas y el conocimiento necesario para gobernar de forma autónoma. Existe también el riesgo de dependencia de proveedores específicos (*vendor lock-in*), dificultando la soberanía tecnológica si las instituciones dependen totalmente de herramientas propietarias externas cuyas políticas o costos pueden cambiar bruscamente.
 
 ### Uso Responsable
-El uso responsable de la IA requiere un marco de gobernanza que priorice los valores humanos, la equidad y la rendición de cuentas. Estándares internacionales como la [**ISO 42001**](/docs/modulo9/cap9.2.iso42001.md) proporcionan directrices para gestionar estos riesgos de manera sistemática a lo largo de todo el ciclo de vida del sistema. En la administración pública, es imperativo garantizar un "control humano significativo" (*meaningful human oversight*), asegurando que las decisiones finales que afectan a la ciudadanía siempre residan en personas responsables y no únicamente en algoritmos.
+El uso responsable de la IA requiere un marco de gobernanza que priorice los valores humanos, la equidad y la rendición de cuentas. Estándares internacionales como la [**ISO 42001**](https://patricioaraneda.cl/ia-gestionpublica/docs/iso42001) proporcionan directrices para gestionar estos riesgos de manera sistemática a lo largo de todo el ciclo de vida del sistema. En la administración pública, es imperativo garantizar un "control humano significativo" (*meaningful human oversight*), asegurando que las decisiones finales que afectan a la ciudadanía siempre residan en personas responsables y no únicamente en algoritmos.
 
 ## Riesgos de los agentes autónomos
 
@@ -72,7 +72,7 @@ El uso responsable de la IA requiere un marco de gobernanza que priorice los val
 
 La implementación de **agentes autónomos (IA Agéntica)** en la administración pública conlleva desafíos y riesgos significativos que van más allá de los asociados a la IA tradicional. Debido a su capacidad para planificar y ejecutar acciones sin supervisión humana constante, estos sistemas pueden amplificar vulnerabilidades existentes o crear nuevas contingencias operativas y éticas.
 
-A continuación, se detallan los principales riesgos de implementar agentes autónomos en el Estado, basados en las fuentes y los estándares internacionales como la [**ISO 42001**](/docs/modulo9/cap9.2.iso42001.md):
+A continuación, se detallan los principales riesgos de implementar agentes autónomos en el Estado, basados en las fuentes y los estándares internacionales como la [**ISO 42001**](https://patricioaraneda.cl/ia-gestionpublica/docs/iso42001):
 
 #### Desafíos en la Rendición de Cuentas (Accountability)
 Uno de los mayores riesgos es el cambio en los marcos de responsabilidad. Cuando un sistema actúa de forma autónoma, se diluye la cadena de mando tradicional. Si un agente toma una decisión administrativa errónea o ejecuta una acción perjudicial, surge la dificultad de determinar quién es el responsable: si el desarrollador, el funcionario que definió el objetivo o la institución en su conjunto.
@@ -131,4 +131,4 @@ Los principales riesgos se pueden categorizar de la siguiente manera:
 *   **Deshumanización de la gestión pública:** El uso de robots o agentes para tareas que requieren empatía o clemencia (como en servicios sociales o justicia) puede percibirse como una deshumanización del Estado, afectando la confianza ciudadana y la legitimidad de las instituciones.
 *   **Debilitamiento humano (*Human Enfeeblement*):** La delegación progresiva de todas las funciones intelectuales y administrativas a los agentes puede llevar a un estado de dependencia total, donde el personal del Estado pierda las capacidades y el conocimiento necesario para gobernar por sí mismo.
 
-Para mitigar estos riesgos, es que se crearon marcos como la [**ISO 42001**](/docs/modulo9/cap9.2.iso42001.md) y el [**NIST AI RMF**](/docs/modulo9/cap9.4.nist.md) enfatizan la necesidad de realizar evaluaciones de impacto constantes y de implementar mecanismos de "apagado de emergencia" que garanticen que la autoridad final siempre resida en una persona.
+Para mitigar estos riesgos, es que se crearon marcos como la [**ISO 42001**](https://patricioaraneda.cl/ia-gestionpublica/docs/iso42001) y el [**NIST AI RMF**](https://patricioaraneda.cl/ia-gestionpublica/docs/nistai) enfatizan la necesidad de realizar evaluaciones de impacto constantes y de implementar mecanismos de "apagado de emergencia" que garanticen que la autoridad final siempre resida en una persona.

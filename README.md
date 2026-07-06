@@ -1,5 +1,5 @@
-# Inteligencia Artificial para la Gestión Pública
+# Inteligencia Artificial
 
-Manual de uso de Inteligencia Artificial en el ámbito de la gestión gubernamental.
+Manual de uso de Inteligencia Artificial.
 
 

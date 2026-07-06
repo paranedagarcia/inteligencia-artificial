@@ -2,7 +2,7 @@
 id: modelos
 title: "Grandes modelos de lenguaje"
 sidebar_label: "💻 Modelos de lenguaje"
-sidebar_position: 7
+sidebar_position: 1
 description: "Grandes modelos de lenguaje de la Inteligencia Artificial"
 ---
 
