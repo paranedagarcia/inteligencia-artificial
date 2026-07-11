@@ -17,7 +17,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Comprende el uso de LLMs y sus aplicacióones en diferentes aspectos de la vida cotidiana y laboral. Aprende a utilizar los agentes de IA.
+        Comprende el uso de LLMs y sus aplicaciones en diferentes aspectos de la vida cotidiana y laboral. Aprende a utilizar los agentes de IA.
       </>
     ),
   },

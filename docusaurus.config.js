@@ -104,15 +104,19 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Series de Manuales',
             items: [
               {
-                label: 'Manual',
-                to: '/docs/intro',
+                label: 'Inteligencia Artificial',
+                to: 'https://patricioaraneda.cl/inteligencia-artificial/',
               },
               {
-                label: 'DOI',
-                href: 'https://orcid.org/0000-0001-9677-5959',
+                label: 'Ciencia de Datos',
+                href: 'https://patricioaraneda.cl/ciencia-de-datos/',
+              },
+              {
+                label: 'Programación en Python',
+                href: 'https://patricioaraneda.cl/python/',
               }
             ],
           },
@@ -145,6 +149,10 @@ const config = {
               {
                 label: 'Correo',
                 href: 'mailto:paraneda@ug.uchile.cl',
+              },
+              {
+                label: 'DOI',
+                href: 'https://orcid.org/0000-0001-9677-5959',
               }
             ],
           },
