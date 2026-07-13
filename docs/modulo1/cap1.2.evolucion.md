@@ -157,6 +157,34 @@ En la actualidad, aunque ha sido superada en popularidad por el aprendizaje prof
 
 A partir de los años 90, el enfoque cambió hacia el **Machine Learning (ML)**. A diferencia de la IA simbólica, aquí no se programan todas las reglas; en su lugar, se utilizan algoritmos estadísticos para que la máquina identifique patrones en los datos y realice predicciones o tome decisiones. Es el núcleo de la mayoría de los sistemas de IA utilizados hoy en fiscalización y análisis predictivo en el Estado.
 
+#### Aprendizaje supervisado
+
+El aprendizaje supervisado es un método de análisis de datos que deduce información a partir de datos de entrenamiento. Esto es, aprende iterativamente de los datos que le son aportados. Los datos que son entregados estan previamente identificados y etiquetados conocido el valor del atributo objetivo. En base a datos previamente conocidos será capaz de predecir el valor del atributo buscado sobre nuevos datos.
+
+**Etiquetas**
+
+Una etiqueta es el valor que estamos prediciendo, es decir, la variable y en la regresión lineal simple. La etiqueta podría ser el precio futuro del trigo, el tipo de animal que se muestra en una imagen, el significado de un clip de audio o simplemente cualquier cosa.
+
+**Atributos**
+
+Un atributo es una variable de entrada, es decir, la variable x en la regresión lineal simple. Un proyecto de aprendizaje automático simple podría usar un solo atributo, mientras que otro más sofisticado podría usar millones de atributos, especificados como: x1, x2, x3,…xn
+
+En el ejemplo del detector de spam en el correo electrónico, los atributos podrían incluir los siguientes:
+- palabras en el texto del correo electrónico
+dirección del remitente
+- hora del día a la que se envió
+- presencia de la frase “un truco increíble” en el correo electrónico
+
+Una vez que el modelo se entrena con ejemplos etiquetados, ese modelo se usa para predecir la etiqueta en ejemplos sin etiqueta. En el detector de spam, los ejemplos sin etiqueta son correos electrónicos nuevos que las personas todavía no han etiquetado.
+
+Un ejemplo es una instancia de datos en particular, x. (La x se coloca en negrita para indicar que es un vector). Los ejemplos se dividen en dos categorías:
+
+- ejemplos etiquetados
+- ejemplos sin etiqueta
+
+#### Aprendizaje no supervisado
+
+
 ### Deep Learning (Aprendizaje Profundo)
 
 ![](/img/1.2-deep.webp)

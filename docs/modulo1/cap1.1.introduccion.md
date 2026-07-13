@@ -19,6 +19,41 @@ Al finalizar este capítulo el estudiante será capaz de:
 * Identificar aplicaciones de la IA en el sector público.
 * Comprender las oportunidades y limitaciones actuales de estas tecnologías.
 
+## Inteligencia Artificial
+
+No existe una definición única y ampliamente aceptada de inteligencia artificial. En su lugar hay varias en relación a un punto de vista conductual o de razonamiento.
+
+Automatización de actividades que vinculamos con procesos de pensamiento humano, actividades como la toma de decisiones, resolución de problemas y aprendizaje.
+
+El arte de desarrollar máquinas con capacidad para realizar funciones que cuando son realiza- das por personas requieren de inteligencia
+
+La Inteligencia Computacional es el estudio del diseño de agentes inteligentes
+
+Tecnologías con la capacidad de realizar tareas que de otro modo requerirían inteligencia humana, como percepción visual, reconocimiento de voz y traducción de idiomas, etc.
+
+Las máquinas han mejorado sus habilidades en comunicaciones complejas, reconocimiento de patrones y otras actividades que creíamos  exclusivamente humanas.
+
+### Inteligencia
+
+Facultad de la mente que permite aprender, entender, razonar, tomar decisiones y formarse una idea determinada de la realidad.
+
+La inteligencia artificial (IA) hace posible que las máquinas aprendan de la experiencia, se ajusten a nuevas aportaciones y realicen tareas como seres humanos.
+
+La IA es una ciencia que toma prestados conceptos de las ciencias biológicas y de la ingeniería. En particular de las neurociencias y procesos cognitivos, ya que el objetivo de la IA es emular la capacidad de aprendizaje de los humanos. Y para ello se debe comprender el cómo aprendemos.
+
+Aprendemos desde la infancia a diferenciar (clasificar) entre ciertos objetos y finalmente reconocerlos mediante “entrenamiento”, nos muestran elementos diciendonos lo que son (etiquetas, atributos). De forma tal que luego vemos objetos similares e inmediatamente son “reconocidos”.
+
+- La inteligencia artificial automatiza el aprendizaje y descubrimiento repetitivos a través de datos.
+- Agrega inteligencia a productos existentes.
+- Se adapta a través de algoritmos de aprendizaje progresivo.
+- La inteligencia artificial analiza más datos y datos más profundos.
+- La inteligencia artificial logra una increíble precisión.
+- La inteligencia artificial saca el mayor provecho de los datos.
+
+
+### Sistema Experto
+
+Un sistema experto es un sistema informático que imita la capacidad de toma de decisiones de un experto humano siguiendo las reglas preprogramadas, como ‘si esto ocurre, entonces haz esto’. Estos sistemas fueron la base del desarrollo de la IA en la década de los 80, pero desde entonces se han vuelto menos de moda, particularmente con el uso de las redes neuronales.
 
 
 ## 1.1 La Inteligencia Artificial en la actualidad

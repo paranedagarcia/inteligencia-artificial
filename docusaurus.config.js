@@ -104,20 +104,24 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Series de Manuales',
+            title: 'Otros cursos de la serie',
             items: [
               {
-                label: 'Inteligencia Artificial',
-                to: 'https://patricioaraneda.cl/inteligencia-artificial/',
+                label: 'Programación en Python',
+                href: 'https://patricioaraneda.cl/python/',
+              },
+              {
+                label: 'Bioestadística',
+                href: 'https://patricioaraneda.cl/bioestadistica/',
               },
               {
                 label: 'Ciencia de Datos',
                 href: 'https://patricioaraneda.cl/ciencia-de-datos/',
               },
               {
-                label: 'Programación en Python',
-                href: 'https://patricioaraneda.cl/python/',
-              }
+                label: 'Inteligencia Artificial',
+                href: 'https://patricioaraneda.cl/inteligencia-artificial/',
+              },
             ],
           },
           {

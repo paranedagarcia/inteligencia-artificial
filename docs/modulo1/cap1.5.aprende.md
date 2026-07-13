@@ -11,9 +11,17 @@ slug: /como-aprende
 
 A diferencia de la programación tradicional, donde un ser humano redacta instrucciones rígidas paso a paso, la Inteligencia Artificial (IA) moderna —específicamente el **Aprendizaje Automático (Machine Learning)**— se basa en la capacidad de los sistemas para identificar patrones y regularidades en los datos de forma autónoma. Este proceso no implica "pensar" en el sentido humano, sino ajustar modelos matemáticos complejos para que puedan realizar predicciones o tomar decisiones precisas ante información nueva.
 
-A continuación, se detallan los paradigmas y mecanismos técnicos que permiten este aprendizaje.
+Las metodologías de aprendizaje automático se basan en análisis estadísticos, ya que tratan de determinar las dependencias estadísticas entre las variables a trabajar. Por lo que se deben conocer tanto de estadística básica como avanzada y probabilidades para realmente comprender los resultados entregados por el aprendizaje automático.
 
----
+### Agentes inteligentes
+
+El principio del aprendizaje automático se basa en forma general en la creación de agentes inteligentes, los cuales tienen la particularidad de ser objetos (programas/algoritmos) que pueden percibir su entono y actuar frente a el. En forma cotidiana están actualmente en los asistentes de voz de nuestros celulares, al recibir las sugerencias de producto que nos hacen páginas de comercio y obtener información de Google Maps, así como las recomendaciones de Netflix. Todos son ejemplos de agentes inteligentes.
+
+Los agentes, son por lo tanto, programas capaces de tomar decisiones o realizar algún servicio en función de su entorno y sus capacidades. Poseen cierta autonomía, lo que les permite ejecutar labores específicas, predecibles y repetitivas. También, tienen capacidad de aprender. Las capacidades principales de estos agentes inteligentes son la percepción y la acción.
+
+Un agente inteligente, es una entidad capaz de percibir su entorno, procesar tales percepciones y responder o actuar en su entorno de manera racional, es decir, de manera correcta y tendiendo a maximizar un resultado esperado. Es capaz de percibir su medioambiente con la ayuda de sensores y actuar en ese medio utilizando actuadores (elementos que reaccionan a un estímulo realizando una acción).
+
+Un agente inteligente puede ser una entidad física o virtual. Si bien el término agente racional se refiere a agentes artificiales en el campo de la Inteligencia Artificial, también puede considerarse agentes racionales a los animales incluido el hombre.
 
 ### Los Tres Paradigmas del Aprendizaje
 Existen tres enfoques principales mediante los cuales una máquina puede adquirir conocimiento:
