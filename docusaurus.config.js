@@ -5,6 +5,7 @@
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
 import {themes as prismThemes} from 'prism-react-renderer';
+import {links as footerLinks} from './footer_links.js';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -20,6 +21,10 @@ const config = {
     hooks: {
       // Downgrade to warnings so your staging preview or local build won't fail
       onBrokenMarkdownImages: 'warn', 
+    },
+    remarkRehypeOptions: {
+      footnoteLabel: 'Notas al pie',
+      footnoteBackLabel: 'Volver a referencia',
     },
   },
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -102,66 +107,8 @@ const config = {
       },
       footer: {
         style: 'dark',
-        links: [
-          {
-            title: 'Otros cursos de la serie',
-            items: [
-              {
-                label: 'Programación en Python',
-                href: 'https://patricioaraneda.cl/python/',
-              },
-              {
-                label: 'Bioestadística',
-                href: 'https://patricioaraneda.cl/bioestadistica/',
-              },
-              {
-                label: 'Ciencia de Datos',
-                href: 'https://patricioaraneda.cl/ciencia-de-datos/',
-              },
-              {
-                label: 'Inteligencia Artificial',
-                href: 'https://patricioaraneda.cl/inteligencia-artificial/',
-              },
-            ],
-          },
-          {
-            title: 'Conecta',
-            items: [
-              {
-                label: 'Website',
-                href: 'https://patricioaraneda.cl',
-              },
-              {
-                label: 'Linkedin',
-                href: 'https://www.linkedin.com/in/patricioaraneda',
-              },
-              {
-                label: 'Whatsapp',
-                href: 'https://wa.me/56978872845',
-              },
-              
-            ],
-          },
-          {
-            title: 'Más',
-            items: [
-             
-              {
-                label: 'GitHub',
-                href: 'https://github.com/paranedagarcia/inteligencia-artificial',
-              },
-              {
-                label: 'Correo',
-                href: 'mailto:paraneda@ug.uchile.cl',
-              },
-              {
-                label: 'DOI',
-                href: 'https://orcid.org/0000-0001-9677-5959',
-              }
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} Patricio Araneda G. | Inteligencia Artificial, Inc. Built with Docusaurus.`,
+        links: footerLinks,
+        copyright: `Copyright © ${new Date().getFullYear()} Patricio Araneda G. | Inteligencia Artificial para la Gestión Pública, Built with <a href="https://docusaurus.io/">Docusaurus</a>. <br /><img src="img/cc-by-nc-sa.png" alt="CC-BY-SA 4.0" width="120" />`,
       },
       prism: {
         theme: prismThemes.github,

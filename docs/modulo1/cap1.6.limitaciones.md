@@ -72,7 +72,7 @@ El uso responsable de la IA requiere un marco de gobernanza que priorice los val
 
 La implementación de **agentes autónomos (IA Agéntica)** en la administración pública conlleva desafíos y riesgos significativos que van más allá de los asociados a la IA tradicional. Debido a su capacidad para planificar y ejecutar acciones sin supervisión humana constante, estos sistemas pueden amplificar vulnerabilidades existentes o crear nuevas contingencias operativas y éticas.
 
-A continuación, se detallan los principales riesgos de implementar agentes autónomos en el Estado, basados en las fuentes y los estándares internacionales como la [**ISO 42001**](https://patricioaraneda.cl/ia-gestionpublica/docs/iso42001):
+A continuación, se detallan los principales riesgos de implementar agentes autónomos en el Estado, según los estándares internacionales como la [**ISO 42001**](https://patricioaraneda.cl/ia-gestionpublica/docs/iso42001):
 
 #### Desafíos en la Rendición de Cuentas (Accountability)
 Uno de los mayores riesgos es el cambio en los marcos de responsabilidad. Cuando un sistema actúa de forma autónoma, se diluye la cadena de mando tradicional. Si un agente toma una decisión administrativa errónea o ejecuta una acción perjudicial, surge la dificultad de determinar quién es el responsable: si el desarrollador, el funcionario que definió el objetivo o la institución en su conjunto.
