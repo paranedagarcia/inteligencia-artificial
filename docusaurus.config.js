@@ -68,6 +68,10 @@ const config = {
         theme: {
           customCss: './src/css/custom.css',
         },
+        gtag: {
+          trackingID: 'G-3V2QKLCVQR',
+          anonymizeIP: true,
+        },
       }),
     ],
   ],
@@ -76,8 +80,11 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       metadata: [
-        {name: 'keywords', content: 'ia, manual, inteligencia artificial, gestión pública, análisis de datos, estrategia, gobernanza, automatización'},
+        {name: 'description', content: 'Manual de Inteligencia Artificial, análisis de datos y automatización para la gestión pública. Estrategia, gobernanza, prompts, chatgpt, gpt, openai, llm, modelos de lenguaje grande.'},
+        {name: 'keywords', content: 'ia, manual, inteligencia artificial, análisis de datos, estrategia, gobernanza, automatización, prompts, chatgpt, gpt, openai, llm, modelos de lenguaje, modelos de lenguaje grande, llm, large language models'},
         {name: 'author', content: 'Patricio Araneda'},
+        {property: 'og:type', content: 'website' },
+        {property: 'og:image', content: 'https://patricioaraneda.cl/inteligencia-artificial/img/inteligencia-artificial.jpg' },
       ],
       // Replace with your project's social card
       image: 'img/inteligencia-artificial.jpg',
