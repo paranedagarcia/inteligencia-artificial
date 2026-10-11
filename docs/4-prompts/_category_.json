@@ -1,0 +1,9 @@
+{
+  "label": "📚 Ingeniería de prompts",
+  "link": {
+    "type": "generated-index",
+    "description": "Introducción al Prompt Engineering. En este módulo se abordan las técnicas y estrategias para diseñar y optimizar prompts efectivos en modelos de lenguaje, con el objetivo de mejorar la interacción y obtención de resultados precisos en aplicaciones de inteligencia artificial.",
+    "slug": "ingenieria-de-prompts",
+    "title": "Ingeniería de prompts"
+  }
+}
