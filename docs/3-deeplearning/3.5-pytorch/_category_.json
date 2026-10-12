@@ -3,6 +3,7 @@
   "link": {
     "type": "generated-index",
     "description": "Conceptos y técnicas de Pytorch",
-    "title": "Pytorch"
+    "title": "Pytorch",
+    "slug": "pytorch"
   }
 }
