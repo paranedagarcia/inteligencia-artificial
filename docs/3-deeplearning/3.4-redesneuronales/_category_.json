@@ -1,0 +1,9 @@
+{
+  "label": "📚 Redes neuronales",
+  "link": {
+    "type": "generated-index",
+    "description": "Conceptos y técnicas de redes neuronales en Deep Learning",
+    "title": "Redes neuronales",
+    "slug": "redes-neuronales"
+  }
+}

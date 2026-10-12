@@ -1,7 +1,7 @@
 {
   "label": "📚 Fundamentos",
   "collapsible": true,
-  "collapsed": false,
+  "collapsed": true,
   "link": {
     "type": "generated-index",
     "description": "Fundamentos de Inteligencia Artificial",
