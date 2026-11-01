@@ -1,0 +1,11 @@
+{
+  "label": "📁 RAG",
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "description": "La Generación Aumentada por Recuperación, es una técnica que permite a los Modelos (LLM) acceder a datos externos que no formaban parte de su entrenamiento original.",
+    "title": "RAG",
+    "slug": "rag"
+  }
+}

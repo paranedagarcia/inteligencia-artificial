@@ -14,6 +14,7 @@
   }
 }
 
+📁 📦 📚 
 
 # Notas
 
@@ -105,6 +106,7 @@ import YouTubeVideo from '@site/src/components/YouTubeVideo';
 </Tabs>
 
 
+
 ¿Cómo ayuda el Prompt Engineering a evitar alucinaciones?
 
 ¿Cuáles son los pasos para crear un prompt maestro?
@@ -157,3 +159,39 @@ Dame un ejemplo de cómo se tokeniza una palabra compleja
 ¿Cómo se aplica el esquema CRTF en blogs corporativos?
 ¿Qué controles establece la ISO 42001 para recursos humanos?
 
+Embeddings
+
+¿Cómo se calcula la similitud del coseno entre embeddings?
+Explícame más sobre las bases de datos vectoriales
+¿Qué diferencias hay entre embeddings estáticos y contextuales?
+
+vectoriales
+
+¿Cómo se combinan las bases de datos vectoriales con los modelos de lenguaje?
+¿Cuál es la diferencia entre los embeddings estáticos y los contextuales?
+Explícame cómo funciona el proceso de chunking en RAG
+
+💡 Si te interesa la parte práctica, podemos ver un ejemplo de código en Python utilizando **ChromaDB** o **FAISS** con LangChain para indexar una colección de textos y ejecutar una búsqueda semántica filtrada por metadatos.
+
+### RAG
+
+ Si deseas profundizar, podemos agregar una capa de búsqueda híbrida con BM25 o estructurar una rutina de evaluación cuantitativa con el framework Ragas para medir la exactitud (faithfulness) y relevancia del contexto de este pipeline.
+
+¿Cómo funciona la búsqueda híbrida en RAG?
+¿Cuáles son las diferencias entre BM25 y la recuperación densa?
+
+Cuéntame más sobre RAG avanzado
+¿Cómo funciona la evaluación RAG?
+Explícame el stack de RAGOps
+
+avanzado
+
+Háblame más sobre Dense Retrieval
+¿Cómo funciona la búsqueda híbrida?
+Muéstrame ejemplos de Sparse Retrieval
+Cuéntame más sobre BM25
+¿Qué es la búsqueda densa?
+
+💡 Si te parece útil, podemos desarrollar una función en Python para implementar **Reciprocal Rank Fusion (RRF)** desde cero y ver matemáticamente cómo se combinan las listas ordenadas de una búsqueda BM25 y una búsqueda vectorial.
+
+💡 Si deseas profundizar, podemos revisar la fórmula de **Reciprocal Rank Fusion (RRF)** con un ejemplo numérico concreto o ver cómo implementarlo en Python usando la clase `EnsembleRetriever` de LangChain.

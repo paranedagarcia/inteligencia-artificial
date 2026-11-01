@@ -1,0 +1,11 @@
+{
+  "label": "📚 Temas avanzados",
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "description": "Temas avanzados de Inteligencia Artificial.",
+    "title": "Temas avanzados",
+    "slug": "temas-avanzados"
+  }
+}
