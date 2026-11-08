@@ -48,7 +48,8 @@ Es el estándar de la industria y la evolución probabilística de TF-IDF.
   1. **Saturación de frecuencia de términos:** En TF-IDF, si una palabra aparece 50 veces, su peso crece linealmente. BM25 aplica una curva de saturación asintótica: después de cierto número de repeticiones, las apariciones adicionales apenas incrementan la puntuación.
   2. **Normalización por longitud de documento:** Evita que los documentos más largos obtengan puntuaciones artificialmente altas solo por contener más palabras.
 * **Ejemplo en código (LangChain con `rank_bm25`):**
-  ```python
+
+  ```python showLineNumbers
   from langchain_community.retrievers import BM25Retriever
 
   # 1. Corpus de documentos
@@ -116,7 +117,7 @@ Cuando un usuario consulta `"compras"`, el motor no revisa todos los textos: va 
 
 En sistemas avanzados de producción, el Sparse Retrieval no se usa de forma aislada, sino en paralelo con el Dense Retrieval bajo un esquema de **Búsqueda Híbrida** (*Hybrid Search*). 
 
-```python
+```python showLineNumbers
 from langchain.retrievers import EnsembleRetriever
 from langchain_community.retrievers import BM25Retriever
 from langchain_community.vectorstores import FAISS

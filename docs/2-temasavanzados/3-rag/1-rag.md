@@ -135,20 +135,15 @@ from langchain_core.documents import Document
 # 1. Definición de documentos institucionales (ejemplo normativo)
 documentos_fuente = [
     Document(
-        page_content="Decreto N° 12: Todos los proyectos que implementen modelos de IA en el sector público "
-                     "deben contar obligatoriamente con una Evaluación de Impacto Algorítmico (EIA) ex-ante "
-                     "para categorizar el nivel de riesgo en derechos fundamentales.",
+        page_content="""Decreto N° 12: Todos los proyectos que implementen modelos de IA en el sector público deben contar obligatoriamente con una Evaluación de Impacto Algorítmico (EIA) ex-ante para categorizar el nivel de riesgo en derechos fundamentales.""",
         metadata={"fuente": "Decreto-12_2025.pdf", "articulo": 4}
     ),
     Document(
-        page_content="Política de Ciberseguridad: Se prohíbe la ejecución de comandos no supervisados por parte de "
-                     "agentes autónomos en servidores anfitriones. Todas las pruebas deben ejecutarse en contenedores "
-                     "Docker aislados con el parámetro GATEWAY_ALLOW_ALL_USERS desactivado.",
+        page_content="""Política de Ciberseguridad: Se prohíbe la ejecución de comandos no supervisados por parte de agentes autónomos en servidores anfitriones. Todas las pruebas deben ejecutarse en contenedores Docker aislados con el parámetro GATEWAY_ALLOW_ALL_USERS desactivado.""",
         metadata={"fuente": "Seguridad_Agentes.pdf", "seccion": 2.1}
     ),
     Document(
-        page_content="Supervisión Humana (HITL): Los sistemas de clasificación de riesgo social o judicial nunca "
-                     "podrán tomar decisiones vinculantes sin la revisión y firma explícita de un funcionario competente.",
+        page_content="""Supervisión Humana (HITL): Los sistemas de clasificación de riesgo social o judicial nunca podrán tomar decisiones vinculantes sin la revisión y firma explícita de un funcionario competente.""",
         metadata={"fuente": "Manual_Etica_IA.pdf", "principio": "Primacía Humana"}
     )
 ]
@@ -200,7 +195,9 @@ vectorstore = Chroma.from_documents(
 # Configurar el recuperador (Retriever) para obtener los 2 fragmentos más relevantes (k=2)
 retriever = vectorstore.as_retriever(search_kwargs={"k": 2})
 ```
-*(Nota: Si deseas ejecutar este pipeline de forma 100% local y gratuita, puedes sustituir `OpenAIEmbeddings` por embeddings de Hugging Face como `sentence-transformers/all-MiniLM-L6-v2` o modelos locales vía Ollama).*
+:::info[Nota]
+*Si deseas ejecutar este pipeline de forma 100% local y gratuita, puedes sustituir `OpenAIEmbeddings` por embeddings de Hugging Face como `sentence-transformers/all-MiniLM-L6-v2` o modelos locales vía Ollama.*
+:::
 
 
 

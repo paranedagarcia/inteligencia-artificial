@@ -62,7 +62,7 @@ Bases de Datos * Analítica de Negocios * Análisis de Datos * Fundamentos de Si
 ## ☕ Contacto
 
 * **Web**: https://patricioaraneda.cl
-* **Email**: [paraneda@ug.uchile.cl](mailto:paraneda@ug.uchile.cl) / [patricioaranedagarcia@gmail.com](mailto:patricioaranedagarcia@gmail.com)
+* **Email**: [patricio@aranedagarcia.cl](mailto:patricio@aranedagarcia.cl) / [patricioaranedagarcia@gmail.com](mailto:patricioaranedagarcia@gmail.com)
 * **LinkedIn**: https://www.linkedin.com/in/patricioaraneda/
 * **GitHub**: https://github.com/paranedagarcia
 
