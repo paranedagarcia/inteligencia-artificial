@@ -3,7 +3,6 @@ id: prompts
 title: "Prompt"
 sidebar_label: "🗒️ Prompt"
 description: "Técnicas básicas de Prompt Engineering"
-slug: /prompts
 ---
 
 <center>

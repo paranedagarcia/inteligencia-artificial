@@ -3,7 +3,6 @@ id: prompt-tecnicas
 title: "Técnicas Básicas de Prompt"
 sidebar_label: "🗒️ Técnicas básicas"
 description: "Técnicas básicas de Prompt Engineering"
-slug: /prompt-tecnicas
 ---
 
 
@@ -14,7 +13,7 @@ slug: /prompt-tecnicas
 * Prompt Templates
 * Prompt Iterativo
 
-## Técnicas principales
+## **Técnicas principales**
 Existen diversos enfoques según la complejidad del requerimiento:
 *   **Zero-Shot:** Se da una instrucción directa sin ejemplos previos.
 *   **Few-Shot:** Se proporcionan algunos ejemplos para que la IA imite un patrón específico.
@@ -56,30 +55,10 @@ A continuación se detallan las características y diferencias principales entre
 
 En resumen, se debe utilizar **Zero-Shot** para peticiones directas y sencillas donde se confía en la capacidad general del modelo. Por el contrario, se debe optar por **Few-Shot** cuando se requiere un control preciso sobre el estilo o la estructura del resultado final, o cuando el modelo falla al intentar realizar la tarea sin ejemplos previos.
 
-### Chain of Thought (CoT)
+### Matriz de aprendizaje en contexto
 
-El **Chain of Thought** es una técnica avanzada de *prompt engineering* que consiste en guiar al modelo para que explique su razonamiento paso a paso antes de llegar a una conclusión. Esta metodología es especialmente útil para tareas complejas que requieren análisis lógico, matemático o de múltiples etapas.
-
-La técnica de **Chain of Thought (CoT)** o "Cadena de Pensamiento" es una de las estrategias más eficaces del *prompt engineering* para mitigar las **alucinaciones** (generación de información falsa pero convincente).
-
-Esta mejora en la veracidad de los modelos se produce a través de los siguientes mecanismos:
-
-#### Descomposición de Tareas Complejas
-En lugar de forzar al modelo a predecir una respuesta final compleja de una sola vez, el CoT le instruye explícitamente a **desglosar el problema en pasos intermedios y manejables**. Al abordar cada parte individualmente, se reduce la probabilidad de que el modelo cometa errores de razonamiento que deriven en una alucinación.
-
-#### Detección de Errores de Lógica
-El CoT permite que el modelo actúe de manera más sistemática. En escenarios donde una pregunta directa podría inducir a una alucinación (como preguntas con premisas falsas o trucos), obligar al modelo a pensar paso a paso puede ayudarle a **"descubrir un error"** en su propio proceso lógico antes de entregar la respuesta final.
-
-#### Mejora en la Interpretabilidad (Auditoría)
-Dado que el modelo muestra su "proceso de pensamiento" o razonamiento interno, el usuario puede realizar un seguimiento de los pasos seguidos. Esto proporciona un **rastro de auditoría** que facilita identificar exactamente dónde falló la lógica de la IA, permitiendo al humano depurar el resultado y no aceptar una conclusión falsa como verdadera.
-
-#### Sinergia con la Auto-consistencia
-El CoT se vuelve aún más poderoso cuando se combina con la técnica de **Auto-consistencia (Self-Consistency)**. Este método consiste en:
-*   Generar múltiples cadenas de razonamiento diversas para un mismo problema.
-*   Evaluar los distintos resultados obtenidos.
-*   Seleccionar la respuesta más frecuente o consistente mediante una "votación de mayoría". 
-
-Esta combinación reduce drásticamente las alucinaciones al ignorar caminos de razonamiento únicos o "defectuosos" que podrían haber surgido en un solo intento.
-
-#### Limitaciones a considerar
-A pesar de sus beneficios, el CoT no elimina las alucinaciones por completo. En algunos casos, especialmente en modelos más pequeños, la técnica puede ser contraproducente, ya que el modelo puede llegar a **alucinar razonamientos fallidos** que parecen lógicos pero son incorrectos. Por ello, se recomienda validar siempre los resultados, especialmente en tareas críticas.
+| Estrategia | Definición | Nivel de esfuerzo | Precisión | Mejor caso de uso |
+| :--- | :--- | :--- | :--- | :--- |
+| **Zero-Shot** | Sin ejemplos | Bajo | Impredecible | Tareas de conocimiento general |
+| **One-Shot** | Un ejemplo de entrada/salida | Medio | Alta | Definir un formato o estilo específico |
+| **Few-Shot** | Sin ejemplos | Alto | Máxima | Tareas compejas, reducción de sesgos |

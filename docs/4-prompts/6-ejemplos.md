@@ -2,9 +2,7 @@
 id: prompt-ejemplos
 title: "Ejemplos de Prompt"
 sidebar_label: "🗒️ Ejemplos"
-sidebar_position: 5
 description: "Ejemplos básicos de Prompt Engineering"
-slug: /prompt-ejemplos
 ---
 
 ## Evaluación

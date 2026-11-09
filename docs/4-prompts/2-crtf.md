@@ -3,7 +3,6 @@ id: crtf
 title: "CRTF"
 sidebar_label: "🗒️ CRTF"
 description: "CRTF de Prompt Engineering"
-slug: /crtf
 ---
 
 
@@ -24,6 +23,13 @@ Supongamos que necesitamos que la IA genere un resumen de un informe sobre polí
 :::
 
 El esquema **CRTF** es una metodología sistemática diseñada para transformar la interacción con la Inteligencia Artificial de un proceso de "prueba y error" en una disciplina de ingeniería que permite obtener resultados precisos, útiles y alineados con objetivos específicos.
+
+<center>
+<figure>
+![](img/crtf.jpg)
+<figcaption>**CRFT**. La integración de estos cuatro componentes garantiza respuestas de alta calidad, precisas y perfectamente alineadas con el objetivo. Si falta una pieza, el sistema colapsa.</figcaption>
+</figure>
+</center>
 
 Para aplicar este esquema de manera efectiva en sus *prompts*, debe integrar los siguientes cuatro componentes clave:
 
@@ -66,6 +72,13 @@ Un *prompt* estructurado bajo **CRTF** para un entorno profesional se vería as�
 
 Al usar formato markdown para estructurar los prompts, se facilita la lectura y comprensión tanto para el usuario como para la IA, asegurando que cada componente del esquema CRTF esté claramente definido y separado. Esto contribuye a obtener respuestas más precisas y alineadas con los objetivos planteados. 
 
+<center>
+<figure>
+![](img/crtf-sintaxis.jpg)
+<figcaption>**Sintaxis y delimitadores**. Cuando un prompt contiene múltiples componentes, el uso de **delimitadores** (Markdown, comillas) separa las instrucciones de los datos de entrada, previniendo la confusión del modelo.</figcaption>
+</figure>
+</center>
+
 Se escribe directamente el formato en el prompt, sin necesidad de instrucciones externas, lo que mejora la eficiencia y efectividad del proceso de *prompt engineering*. También puede guardar el prompt en un archivo markdown (ejemplo: "plan.md") para su reutilización y referencia futura, asegurando consistencia en la interacción con la IA.
 
 :::info[Prompt CRTF formato markdown]
@@ -91,6 +104,13 @@ El esquema CRTF no es un estándar universal, sino una guía flexible. Dependien
 ### Rol
 
 En el esquema **CRTF**, el **Rol** se define como la asignación de una personalidad, identidad o función específica a la Inteligencia Artificial para orientar su comportamiento. Este componente es fundamental para establecer la perspectiva, el punto de vista o la especialidad desde la cual el modelo debe generar su respuesta.
+
+<center>
+<figure>
+![](img/crtf-rol.jpg)
+<figcaption>**Precondiciona la respuesta con la asignación de roles**. Asignar una "persona" activa un subconjunto específico de conocimiento en la IA. El modelo adopta el vocabulario, el tono y los patrones de razonamiento de un especialista.</figcaption>
+</figure>
+</center>
 
 La definición técnica y operativa del Rol abarca los siguientes aspectos:
 
@@ -152,6 +172,12 @@ Un prompt que omite el formato podría recibir un párrafo largo y denso. En con
 
 > *"Entrega el resultado en una **tabla Markdown** con tres columnas: 'Riesgo detectado', 'Nivel de impacto' y 'Medida de mitigación'. El tono debe ser **formal ejecutivo** y la extensión no debe superar las **200 palabras**"*.
 
+<center>
+<figure>
+![](img/crtf-multimodal.jpg)
+<figcaption>**Prompts multimodales**. Mas allá del texto. Las pticiones son cada vez más fexibles en conseguir objetivos multimodales donde se fundamenta aún más un modelo CRTF riguroso.</figcaption>
+</figure>
+</center>
 
 ## Integración del esquema CRTF
 
