@@ -9,7 +9,7 @@ description: "Ejemplos básicos de Prompt Engineering"
 
 ### Prompt Evaluador de Prompts (Metodología CRTF)
 
-Creación de un prompt que permite evaluar otros prompts siguiendo las definiciones del modelo [CRTF](/docs/crtf).
+Creación de un prompt que permite evaluar otros prompts siguiendo las definiciones del modelo **CRTF**.
 
 **C - CONTEXTO:** Trabajas en un entorno institucional y académico de auditoría y optimización de interacción con modelos de lenguaje de inteligencia artificial. Se requiere evaluar objetiva y rigurosamente la calidad de los *prompts* redactados por los usuarios antes de ser ejecutados, asegurando que cumplan con la estructura de calidad **CRTF** (Contexto, Rol, Tarea, Formato) para evitar respuestas vagas o desordenadas.
 **R - ROL:** Actúa como un **Auditor Especialista en Ingeniería de Prompts y Evaluación de Modelos de Lenguaje**. Tu estilo de respuesta debe ser analítico, académico, constructivo y estrictamente estructurado.
