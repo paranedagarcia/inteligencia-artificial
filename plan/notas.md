@@ -195,3 +195,7 @@ Cuéntame más sobre BM25
 💡 Si te parece útil, podemos desarrollar una función en Python para implementar **Reciprocal Rank Fusion (RRF)** desde cero y ver matemáticamente cómo se combinan las listas ordenadas de una búsqueda BM25 y una búsqueda vectorial.
 
 💡 Si deseas profundizar, podemos revisar la fórmula de **Reciprocal Rank Fusion (RRF)** con un ejemplo numérico concreto o ver cómo implementarlo en Python usando la clase `EnsembleRetriever` de LangChain.
+
+¿Cómo se aplica la búsqueda híbrida en LangChain?
+Dame un ejemplo de Dense Retrieval
+¿Qué métricas se usan para evaluar un RAG?
